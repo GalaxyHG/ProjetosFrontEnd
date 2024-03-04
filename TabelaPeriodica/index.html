@@ -22,7 +22,7 @@
             <td class="colspan"></td>
             <td colspan="10" rowspan="3" class="card">
                 <div class="container">
-                    <div class="bigsquare">
+                    <div class="bigsquare" id="cardItem">
                         <span id="numc">1</span>
                         <span id="simbolo">T</span>
                         <span class="nome" id="nomec">1</span>
@@ -45,7 +45,7 @@
                 </div>
             </td>
             <td colspan="5" class="colspan"></td>
-            <td class="gnobres">
+            <td class="gnobres" onclick="itemClicked('he')">
                 <span class="num">2</span><br>
                 <span class="elemento">He </span><br> 
                 <span class="nome">hélio </span><br> 
@@ -215,7 +215,7 @@
                 <span class="nome">níquel</span><br> 
                 <span class="na">58,693</span>
             </td>
-            <td class="mtransicao">
+            <td class="mtransicao" onclick="itemClicked('cu')">
                 <span class="num">29</span><br>
                 <span class="elemento">Cu</span><br> 
                 <span class="nome">cobre</span><br> 
@@ -795,7 +795,7 @@
             <li><div class="legcolor lanta"></div>Lantanídeos</li>
         </ul>
         <ul>
-            <li><div class="actin"></div>Actinídios</li>
+            <li><div class="legcolor actin"></div>Actinídios</li>
         </ul>
     </footer>
     <script src="app.js"></script>
