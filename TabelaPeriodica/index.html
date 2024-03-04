@@ -13,7 +13,7 @@
     <h1>Tabela Periódica dos Elementos</h1>
     <table>
         <tr>
-            <td class="nmetais"> 
+            <td class="nmetais" onclick="itemClicked('h')"> 
                 <span class="num">1</span> <br> 
                 <span class="elemento">H</span> <br> 
                 <span class="nome">hidrogênio </span><br> 
@@ -21,11 +21,27 @@
             </td>
             <td class="colspan"></td>
             <td colspan="10" rowspan="3" class="card">
-                <div class="bigsquare">
-                    <span class="numc">1</span>
-                    <span class="simbolo">H</span>
-                    <span class="nome">Hidrogênio</span>
-                    <span class="numa">1,008</span>
+                <div class="container">
+                    <div class="bigsquare">
+                        <span id="numc">1</span>
+                        <span id="simbolo">T</span>
+                        <span class="nome" id="nomec">1</span>
+                        <span id="numa" id="massa">1</span>
+                    </div>
+                    <table>
+                        <tr>
+                            <td class="card" id="nome">00</td>
+                        </tr>   
+                        <tr>
+                            <td class="card" id="simbol">00</td>
+                        </tr>   
+                        <tr>
+                            <td class="card" id="numero">00</td>
+                        </tr>   
+                        <tr>
+                            <td class="card" id="massa">00</td>
+                        </tr>   
+                    </table>
                 </div>
             </td>
             <td colspan="5" class="colspan"></td>
@@ -782,5 +798,6 @@
             <li><div class="actin"></div>Actinídios</li>
         </ul>
     </footer>
+    <script src="app.js"></script>
 </body>
 </html>
