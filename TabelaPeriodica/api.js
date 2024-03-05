@@ -132,7 +132,3 @@ var argonio = {
     massa: "39,948"
 }
 
-// simbolo: "",
-// nome: "",
-// numero: "",
-// massa: ""
