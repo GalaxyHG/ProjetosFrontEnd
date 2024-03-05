@@ -398,9 +398,6 @@ var xenonio = {
     massa: "131,29"
 }
 
-
-
-
 var cesio = {
     numero: "55",
     simbolo: "Cs",
@@ -416,15 +413,12 @@ var bario = {
     massa: "137,33"
 }
 
-
-
 var hafnio = {
     numero: "72",
     simbolo: "Hf",
     nome: "háfnio",
     massa: "178,49"
 }
-
 
 var tantalo = {
     numero: "73",
@@ -433,14 +427,12 @@ var tantalo = {
     massa: "180,95"
 }
 
-
 var tungstenio = {
     numero: "74",
     simbolo: "W",
     nome: "tungstênio",
     massa: "183,84"
 }
-
 
 var renio = {
     numero: "75",
@@ -449,14 +441,12 @@ var renio = {
     massa: "186,21"
 }
 
-
 var osmio = {
     numero: "76",
     simbolo: "Os",
     nome: "ósmio",
     massa: "190,23"
 }
-
 
 var iridio = {
     numero: "77",
@@ -465,14 +455,12 @@ var iridio = {
     massa: "192,22"
 }
 
-
 var platinumero = {
     numero: "78",
     simbolo: "Pt",
     nome: "platinumero",
     massa: "195,08"
 }
-
 
 var ouro = {
     numero: "79",
@@ -481,14 +469,12 @@ var ouro = {
     massa: "196,97"
 }
 
-
 var mercurio = {
     numero: "80",
     simbolo: "Hg",
     nome: "mercúrio",
     massa: "200,59"
 }
-
 
 var talio = {
     numero: "81",
@@ -497,14 +483,12 @@ var talio = {
     massa: "204,38"
 }
 
-
 var chumbo = {
     numero: "82",
     simbolo: "Pb",
     nome: "chumbo",
     massa: "207,2"
 }
-
 
 var bismuto = {
     numero: "83",
@@ -551,15 +535,12 @@ var radio = {
     massa: "[226]"
 }
 
-
-
 var rutherfordio = {
     numero: "104",
     simbolo: "Rf",
     nome: "rutherfórdio",
     massa: "[267]"
 }
-
 
 var dubnio = {
     numero: "105",
@@ -568,14 +549,12 @@ var dubnio = {
     massa: "[268]"
 }
 
-
 var seaborgio = {
     numero: "106",
     simbolo: "Sg",
     nome: "seabórgio",
     massa: "[269]"
 }
-
 
 var bohrio = {
     numero: "107",
@@ -584,14 +563,12 @@ var bohrio = {
     massa: "[270]"
 }
 
-
 var hassio = {
     numero: "108",
     simbolo: "Hs",
     nome: "hássio",
     massa: "[269]"
 }
-
 
 var meitnerio = {
     numero: "109",
@@ -600,14 +577,12 @@ var meitnerio = {
     massa: "[278]"
 }
 
-
 var darmstadtio = {
     numero: "110",
     simbolo: "Ds",
     nome: "darmstádtio",
     massa: "[281]"
 }
-
 
 var roentgenio = {
     numero: "111",
@@ -616,14 +591,12 @@ var roentgenio = {
     massa: "[281]"
 }
 
-
 var copernicio = {
     numero: "112",
     simbolo: "Cn",
     nome: "copernício",
     massa: "[285]"
 }
-
 
 var nihonio = {
     numero: "113",
@@ -632,14 +605,12 @@ var nihonio = {
     massa: "[286]"
 }
 
-
 var flerovio = {
     numero: "114",
     simbolo: "Fl",
     nome: "fleróvio",
     massa: "[289]"
 }
-
 
 var moscovio = {
     numero: "115",
@@ -696,7 +667,7 @@ var praseodimio = {
 }
 
 
-var elemento = {
+var neodimio = {
     numero: "60",
     simbolo: "Nd",
     nome: "neodímio",
@@ -704,7 +675,7 @@ var elemento = {
 }
 
 
-var elemento = {
+var promecio = {
     numero: "61",
     simbolo: "Pm",
     nome: "promécio",
@@ -712,7 +683,7 @@ var elemento = {
 }
 
 
-var elemento = {
+var samario = {
     numero: "62",
     simbolo: "Sm",
     nome: "samário",
@@ -720,7 +691,7 @@ var elemento = {
 }
 
 
-var elemento = {
+var europio = {
     numero: "63",
     simbolo: "Eu",
     nome: "európio",
@@ -728,7 +699,7 @@ var elemento = {
 }
 
 
-var elemento = {
+var gadolinio = {
     numero: "64",
     simbolo: "Gd",
     nome: "gadolínio",
@@ -736,7 +707,7 @@ var elemento = {
 }
 
 
-var elemento = {
+var terbio = {
     numero: "65",
     simbolo: "Tb",
     nome: "térbio",
@@ -744,7 +715,7 @@ var elemento = {
 }
 
 
-var elemento = {
+var disprosio = {
     numero: "66",
     simbolo: "Dy",
     nome: "disprósio",
@@ -752,7 +723,7 @@ var elemento = {
 }
 
 
-var elemento = {
+var holmio = {
     numero: "67",
     simbolo: "Ho",
     nome: "hólmio",
@@ -760,7 +731,7 @@ var elemento = {
 }
 
 
-var elemento = {
+var erbio = {
     numero: "68",
     simbolo: "Er",
     nome: "érbio",
@@ -768,7 +739,7 @@ var elemento = {
 }
 
 
-var elemento = {
+var tulio = {
     numero: "69",
     simbolo: "Tm",
     nome: "túlio",
@@ -776,7 +747,7 @@ var elemento = {
 }
 
 
-var elemento = {
+var iterbio = {
     numero: "70",
     simbolo: "Yb",
     nome: "itérbio",
@@ -784,14 +755,14 @@ var elemento = {
 }
 
 
-var elemento = {
+var lutecio = {
     numero: "70",
     simbolo: "Lu",
     nome: "lutécio",
     massa: "174,97"
 }
 
-var elemento = {
+var actinio = {
     numero: "89",
     simbolo: "Ac",
     nome: "actínio",
@@ -799,7 +770,7 @@ var elemento = {
 }
 
 
-var elemento = {
+var torio = {
     numero: "90",
     simbolo: "Th",
     nome: "tório",
@@ -807,7 +778,7 @@ var elemento = {
 }
 
 
-var elemento = {
+var protactinio = {
     numero: "91",
     simbolo: "Pa",
     nome: "protactínio",
@@ -815,7 +786,7 @@ var elemento = {
 }
 
 
-var elemento = {
+var uranio = {
     numero: "92",
     simbolo: "U",
     nome: "urânio",
@@ -823,7 +794,7 @@ var elemento = {
 }
 
 
-var elemento = {
+var netunio = {
     numero: "93",
     simbolo: "Np",
     nome: "netúnio",
@@ -831,7 +802,7 @@ var elemento = {
 }
 
 
-var elemento = {
+var pluonio = {
     numero: "94",
     simbolo: "Pu",
     nome: "plutônio",
@@ -839,7 +810,7 @@ var elemento = {
 }
 
 
-var elemento = {
+var americio = {
     numero: "95",
     simbolo: "Am",
     nome: "amerício",
@@ -847,7 +818,7 @@ var elemento = {
 }
 
 
-var elemento = {
+var curio = {
     numero: "96",
     simbolo: "Cm",
     nome: "cúrio",
@@ -855,7 +826,7 @@ var elemento = {
 }
 
 
-var elemento = {
+var berquelio = {
     numero: "97",
     simbolo: "Bk",
     nome: "berquélio",
@@ -863,7 +834,7 @@ var elemento = {
 }
 
 
-var elemento = {
+var californio = {
     numero: "98",
     simbolo: "Cf",
     nome: "califórnio",
@@ -871,7 +842,7 @@ var elemento = {
 }
 
 
-var elemento = {
+var einstenio = {
     numero: "99",
     simbolo: "Es",
     nome: "einstênio",
@@ -879,7 +850,7 @@ var elemento = {
 }
 
 
-var elemento = {
+var fermio = {
     numero: "100",
     simbolo: "Fm",
     nome: "férmio",
@@ -887,7 +858,7 @@ var elemento = {
 }
 
 
-var elemento = {
+var mendelevio = {
     numero: "101",
     simbolo: "Md",
     nome: "mendelévio",
@@ -895,7 +866,7 @@ var elemento = {
 }
 
 
-var elemento = {
+var nobelio = {
     numero: "102",
     simbolo: "No",
     nome: "nobélio",
@@ -903,7 +874,7 @@ var elemento = {
 }
 
 
-var elemento = {
+var laurencio = {
     numero: "103",
     simbolo: "Lr",
     nome: "laurêncio",
