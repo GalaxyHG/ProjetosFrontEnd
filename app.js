@@ -883,43 +883,1300 @@ var laurencio = {
 
 function itemClicked(simbol)
 {
-    if(simbol == 'h')
+    switch(simbol)
     {
-        document.getElementById('numc').innerHTML = hidrogenio.numero;
-        document.getElementById('simbolo').innerHTML = hidrogenio.simbolo;
-        document.getElementById('nomec').innerHTML = hidrogenio.nome;
-        document.getElementById('numa').innerHTML = hidrogenio.massa;
+        case 1:
+            document.getElementById('numc').innerHTML = hidrogenio.numero;
+            document.getElementById('simbolo').innerHTML = hidrogenio.simbolo;
+            document.getElementById('nomec').innerHTML = hidrogenio.nome;
+            document.getElementById('numa').innerHTML = hidrogenio.massa;
 
-        document.getElementById('nome').innerHTML = "<b>Nome: </b>" + hidrogenio.nome;
-        document.getElementById('simbol').innerHTML = "<b>Símbolo: </b>" + hidrogenio.simbolo;
-        document.getElementById('numero').innerHTML = "<b>Número: </b>" + hidrogenio.numero;
-        document.getElementById('massa').innerHTML = "<b>Massa: </b>" + hidrogenio.massa;
-        document.getElementById('cardItem').style.backgroundColor = 'rgba(58, 185, 19, 0.685)';
-    }
-    else if(simbol == 'he')
-    {
-        document.getElementById('numc').innerHTML = helio.numero;
-        document.getElementById('simbolo').innerHTML = helio.simbolo;
-        document.getElementById('nomec').innerHTML = helio.nome;
-        document.getElementById('numa').innerHTML = helio.massa;
+            document.getElementById('nome').innerHTML = "<b>Nome: </b>" + hidrogenio.nome;
+            document.getElementById('simbol').innerHTML = "<b>Símbolo: </b>" + hidrogenio.simbolo;
+            document.getElementById('numero').innerHTML = "<b>Número: </b>" + hidrogenio.numero;
+            document.getElementById('massa').innerHTML = "<b>Massa: </b>" + hidrogenio.massa;
+            document.getElementById('cardItem').style.backgroundColor = 'rgba(58, 185, 19, 0.685)';
+        break;
+        case 2:
+            document.getElementById('numc').innerHTML = helio.numero;
+            document.getElementById('simbolo').innerHTML = helio.simbolo;
+            document.getElementById('nomec').innerHTML = helio.nome;
+            document.getElementById('numa').innerHTML = helio.massa;
+    
+            document.getElementById('nome').innerHTML = "<b>Nome: </b>" + helio.nome;
+            document.getElementById('simbol').innerHTML = "<b>Símbolo: </b>" + helio.simbolo;
+            document.getElementById('numero').innerHTML = "<b>Número: </b>" + helio.numero;
+            document.getElementById('massa').innerHTML = "<b>Massa: </b>" + helio.massa;
+            document.getElementById('cardItem').style.backgroundColor = 'rgba(19, 127, 250, 0.774)';
+        break;
+        case 3:
+            document.getElementById('numc').innerHTML = litio.numero;
+            document.getElementById('simbolo').innerHTML = litio.simbolo;
+            document.getElementById('nomec').innerHTML = litio.nome;
+            document.getElementById('numa').innerHTML = litio.massa;
 
-        document.getElementById('nome').innerHTML = "<b>Nome: </b>" + helio.nome;
-        document.getElementById('simbol').innerHTML = "<b>Símbolo: </b>" + helio.simbolo;
-        document.getElementById('numero').innerHTML = "<b>Número: </b>" + helio.numero;
-        document.getElementById('massa').innerHTML = "<b>Massa: </b>" + helio.massa;
+            document.getElementById('nome').innerHTML = "<b>Nome: </b>" + litio.nome;
+            document.getElementById('simbol').innerHTML = "<b>Símbolo: </b>" + litio.simbolo;
+            document.getElementById('numero').innerHTML = "<b>Número: </b>" + litio.numero;
+            document.getElementById('massa').innerHTML = "<b>Massa: </b>" + litio.massa;
+            document.getElementById('cardItem').style.backgroundColor = 'rgba(19, 127, 250, 0.774)';
+        break;
+        case 4:
+            document.getElementById('numc').innerHTML = berilio.numero;
+            document.getElementById('simbolo').innerHTML = berilio.simbolo;
+            document.getElementById('nomec').innerHTML = berilio.nome;
+            document.getElementById('numa').innerHTML = berilio.massa;
+
+            document.getElementById('nome').innerHTML = "<b>Nome: </b>" + berilio.nome;
+            document.getElementById('simbol').innerHTML = "<b>Símbolo: </b>" + berilio.simbolo;
+            document.getElementById('numero').innerHTML = "<b>Número: </b>" + berilio.numero;
+            document.getElementById('massa').innerHTML = "<b>Massa: </b>" + berilio.massa;
+            document.getElementById('cardItem').style.backgroundColor = 'rgba(19, 127, 250, 0.774)';
+        break;
+        case 5:
+            document.getElementById('numc').innerHTML = berilio.numero;
+            document.getElementById('simbolo').innerHTML = berilio.simbolo;
+            document.getElementById('nomec').innerHTML = berilio.nome;
+            document.getElementById('numa').innerHTML = berilio.massa;
+
+            document.getElementById('nome').innerHTML = "<b>Nome: </b>" + berilio.nome;
+            document.getElementById('simbol').innerHTML = "<b>Símbolo: </b>" + berilio.simbolo;
+            document.getElementById('numero').innerHTML = "<b>Número: </b>" + berilio.numero;
+            document.getElementById('massa').innerHTML = "<b>Massa: </b>" + berilio.massa;
+            document.getElementById('cardItem').style.backgroundColor = 'rgba(19, 127, 250, 0.774)';
+        break;
+        case 6:
+            document.getElementById('numc').innerHTML = berilio.numero;
+            document.getElementById('simbolo').innerHTML = berilio.simbolo;
+            document.getElementById('nomec').innerHTML = berilio.nome;
+            document.getElementById('numa').innerHTML = berilio.massa;
+
+            document.getElementById('nome').innerHTML = "<b>Nome: </b>" + berilio.nome;
+            document.getElementById('simbol').innerHTML = "<b>Símbolo: </b>" + berilio.simbolo;
+            document.getElementById('numero').innerHTML = "<b>Número: </b>" + berilio.numero;
+            document.getElementById('massa').innerHTML = "<b>Massa: </b>" + berilio.massa;
+            document.getElementById('cardItem').style.backgroundColor = 'rgba(19, 127, 250, 0.774)';
+        break;
+        case 7:document.getElementById('numc').innerHTML = berilio.numero;
+        document.getElementById('simbolo').innerHTML = berilio.simbolo;
+        document.getElementById('nomec').innerHTML = berilio.nome;
+        document.getElementById('numa').innerHTML = berilio.massa;
+
+        document.getElementById('nome').innerHTML = "<b>Nome: </b>" + berilio.nome;
+        document.getElementById('simbol').innerHTML = "<b>Símbolo: </b>" + berilio.simbolo;
+        document.getElementById('numero').innerHTML = "<b>Número: </b>" + berilio.numero;
+        document.getElementById('massa').innerHTML = "<b>Massa: </b>" + berilio.massa;
         document.getElementById('cardItem').style.backgroundColor = 'rgba(19, 127, 250, 0.774)';
-    }
-    else if(simbol == 'cu')
-    {
-        document.getElementById('numc').innerHTML = cobre.numero;
-        document.getElementById('simbolo').innerHTML = cobre.simbolo;
-        document.getElementById('nomec').innerHTML = cobre.nome;
-        document.getElementById('numa').innerHTML = cobre.massa;
+        break;
+        case 8:document.getElementById('numc').innerHTML = berilio.numero;
+        document.getElementById('simbolo').innerHTML = berilio.simbolo;
+        document.getElementById('nomec').innerHTML = berilio.nome;
+        document.getElementById('numa').innerHTML = berilio.massa;
 
-        document.getElementById('nome').innerHTML = "<b>Nome: </b>" + cobre.nome;
-        document.getElementById('simbol').innerHTML = "<b>Símbolo: </b>" + cobre.simbolo;
-        document.getElementById('numero').innerHTML = "<b>Número: </b>" + cobre.numero;
-        document.getElementById('massa').innerHTML = "<b>Massa: </b>" + cobre.massa;
-        document.getElementById('cardItem').style.backgroundColor = 'rgb(248, 97, 97)';
+        document.getElementById('nome').innerHTML = "<b>Nome: </b>" + berilio.nome;
+        document.getElementById('simbol').innerHTML = "<b>Símbolo: </b>" + berilio.simbolo;
+        document.getElementById('numero').innerHTML = "<b>Número: </b>" + berilio.numero;
+        document.getElementById('massa').innerHTML = "<b>Massa: </b>" + berilio.massa;
+        document.getElementById('cardItem').style.backgroundColor = 'rgba(19, 127, 250, 0.774)';
+        break;
+        case 9:document.getElementById('numc').innerHTML = berilio.numero;
+        document.getElementById('simbolo').innerHTML = berilio.simbolo;
+        document.getElementById('nomec').innerHTML = berilio.nome;
+        document.getElementById('numa').innerHTML = berilio.massa;
+
+        document.getElementById('nome').innerHTML = "<b>Nome: </b>" + berilio.nome;
+        document.getElementById('simbol').innerHTML = "<b>Símbolo: </b>" + berilio.simbolo;
+        document.getElementById('numero').innerHTML = "<b>Número: </b>" + berilio.numero;
+        document.getElementById('massa').innerHTML = "<b>Massa: </b>" + berilio.massa;
+        document.getElementById('cardItem').style.backgroundColor = 'rgba(19, 127, 250, 0.774)';
+        break;
+        case 10:document.getElementById('numc').innerHTML = berilio.numero;
+        document.getElementById('simbolo').innerHTML = berilio.simbolo;
+        document.getElementById('nomec').innerHTML = berilio.nome;
+        document.getElementById('numa').innerHTML = berilio.massa;
+
+        document.getElementById('nome').innerHTML = "<b>Nome: </b>" + berilio.nome;
+        document.getElementById('simbol').innerHTML = "<b>Símbolo: </b>" + berilio.simbolo;
+        document.getElementById('numero').innerHTML = "<b>Número: </b>" + berilio.numero;
+        document.getElementById('massa').innerHTML = "<b>Massa: </b>" + berilio.massa;
+        document.getElementById('cardItem').style.backgroundColor = 'rgba(19, 127, 250, 0.774)';
+        break;
+        case 12:document.getElementById('numc').innerHTML = berilio.numero;
+        document.getElementById('simbolo').innerHTML = berilio.simbolo;
+        document.getElementById('nomec').innerHTML = berilio.nome;
+        document.getElementById('numa').innerHTML = berilio.massa;
+
+        document.getElementById('nome').innerHTML = "<b>Nome: </b>" + berilio.nome;
+        document.getElementById('simbol').innerHTML = "<b>Símbolo: </b>" + berilio.simbolo;
+        document.getElementById('numero').innerHTML = "<b>Número: </b>" + berilio.numero;
+        document.getElementById('massa').innerHTML = "<b>Massa: </b>" + berilio.massa;
+        document.getElementById('cardItem').style.backgroundColor = 'rgba(19, 127, 250, 0.774)';
+        break;
+        case 13:document.getElementById('numc').innerHTML = berilio.numero;
+        document.getElementById('simbolo').innerHTML = berilio.simbolo;
+        document.getElementById('nomec').innerHTML = berilio.nome;
+        document.getElementById('numa').innerHTML = berilio.massa;
+
+        document.getElementById('nome').innerHTML = "<b>Nome: </b>" + berilio.nome;
+        document.getElementById('simbol').innerHTML = "<b>Símbolo: </b>" + berilio.simbolo;
+        document.getElementById('numero').innerHTML = "<b>Número: </b>" + berilio.numero;
+        document.getElementById('massa').innerHTML = "<b>Massa: </b>" + berilio.massa;
+        document.getElementById('cardItem').style.backgroundColor = 'rgba(19, 127, 250, 0.774)';
+        break;
+        case 14:document.getElementById('numc').innerHTML = berilio.numero;
+        document.getElementById('simbolo').innerHTML = berilio.simbolo;
+        document.getElementById('nomec').innerHTML = berilio.nome;
+        document.getElementById('numa').innerHTML = berilio.massa;
+
+        document.getElementById('nome').innerHTML = "<b>Nome: </b>" + berilio.nome;
+        document.getElementById('simbol').innerHTML = "<b>Símbolo: </b>" + berilio.simbolo;
+        document.getElementById('numero').innerHTML = "<b>Número: </b>" + berilio.numero;
+        document.getElementById('massa').innerHTML = "<b>Massa: </b>" + berilio.massa;
+        document.getElementById('cardItem').style.backgroundColor = 'rgba(19, 127, 250, 0.774)';
+        break;
+        case 15:document.getElementById('numc').innerHTML = berilio.numero;
+        document.getElementById('simbolo').innerHTML = berilio.simbolo;
+        document.getElementById('nomec').innerHTML = berilio.nome;
+        document.getElementById('numa').innerHTML = berilio.massa;
+
+        document.getElementById('nome').innerHTML = "<b>Nome: </b>" + berilio.nome;
+        document.getElementById('simbol').innerHTML = "<b>Símbolo: </b>" + berilio.simbolo;
+        document.getElementById('numero').innerHTML = "<b>Número: </b>" + berilio.numero;
+        document.getElementById('massa').innerHTML = "<b>Massa: </b>" + berilio.massa;
+        document.getElementById('cardItem').style.backgroundColor = 'rgba(19, 127, 250, 0.774)';
+        break;
+        case 16:document.getElementById('numc').innerHTML = berilio.numero;
+        document.getElementById('simbolo').innerHTML = berilio.simbolo;
+        document.getElementById('nomec').innerHTML = berilio.nome;
+        document.getElementById('numa').innerHTML = berilio.massa;
+
+        document.getElementById('nome').innerHTML = "<b>Nome: </b>" + berilio.nome;
+        document.getElementById('simbol').innerHTML = "<b>Símbolo: </b>" + berilio.simbolo;
+        document.getElementById('numero').innerHTML = "<b>Número: </b>" + berilio.numero;
+        document.getElementById('massa').innerHTML = "<b>Massa: </b>" + berilio.massa;
+        document.getElementById('cardItem').style.backgroundColor = 'rgba(19, 127, 250, 0.774)';
+        break;
+        case 17:document.getElementById('numc').innerHTML = berilio.numero;
+        document.getElementById('simbolo').innerHTML = berilio.simbolo;
+        document.getElementById('nomec').innerHTML = berilio.nome;
+        document.getElementById('numa').innerHTML = berilio.massa;
+
+        document.getElementById('nome').innerHTML = "<b>Nome: </b>" + berilio.nome;
+        document.getElementById('simbol').innerHTML = "<b>Símbolo: </b>" + berilio.simbolo;
+        document.getElementById('numero').innerHTML = "<b>Número: </b>" + berilio.numero;
+        document.getElementById('massa').innerHTML = "<b>Massa: </b>" + berilio.massa;
+        document.getElementById('cardItem').style.backgroundColor = 'rgba(19, 127, 250, 0.774)';
+        break;
+        case 18:document.getElementById('numc').innerHTML = berilio.numero;
+        document.getElementById('simbolo').innerHTML = berilio.simbolo;
+        document.getElementById('nomec').innerHTML = berilio.nome;
+        document.getElementById('numa').innerHTML = berilio.massa;
+
+        document.getElementById('nome').innerHTML = "<b>Nome: </b>" + berilio.nome;
+        document.getElementById('simbol').innerHTML = "<b>Símbolo: </b>" + berilio.simbolo;
+        document.getElementById('numero').innerHTML = "<b>Número: </b>" + berilio.numero;
+        document.getElementById('massa').innerHTML = "<b>Massa: </b>" + berilio.massa;
+        document.getElementById('cardItem').style.backgroundColor = 'rgba(19, 127, 250, 0.774)';
+        break;
+        case 19:document.getElementById('numc').innerHTML = berilio.numero;
+        document.getElementById('simbolo').innerHTML = berilio.simbolo;
+        document.getElementById('nomec').innerHTML = berilio.nome;
+        document.getElementById('numa').innerHTML = berilio.massa;
+
+        document.getElementById('nome').innerHTML = "<b>Nome: </b>" + berilio.nome;
+        document.getElementById('simbol').innerHTML = "<b>Símbolo: </b>" + berilio.simbolo;
+        document.getElementById('numero').innerHTML = "<b>Número: </b>" + berilio.numero;
+        document.getElementById('massa').innerHTML = "<b>Massa: </b>" + berilio.massa;
+        document.getElementById('cardItem').style.backgroundColor = 'rgba(19, 127, 250, 0.774)';
+        break;
+        case 20:document.getElementById('numc').innerHTML = berilio.numero;
+        document.getElementById('simbolo').innerHTML = berilio.simbolo;
+        document.getElementById('nomec').innerHTML = berilio.nome;
+        document.getElementById('numa').innerHTML = berilio.massa;
+
+        document.getElementById('nome').innerHTML = "<b>Nome: </b>" + berilio.nome;
+        document.getElementById('simbol').innerHTML = "<b>Símbolo: </b>" + berilio.simbolo;
+        document.getElementById('numero').innerHTML = "<b>Número: </b>" + berilio.numero;
+        document.getElementById('massa').innerHTML = "<b>Massa: </b>" + berilio.massa;
+        document.getElementById('cardItem').style.backgroundColor = 'rgba(19, 127, 250, 0.774)';
+        break;
+        case 21:document.getElementById('numc').innerHTML = berilio.numero;
+        document.getElementById('simbolo').innerHTML = berilio.simbolo;
+        document.getElementById('nomec').innerHTML = berilio.nome;
+        document.getElementById('numa').innerHTML = berilio.massa;
+
+        document.getElementById('nome').innerHTML = "<b>Nome: </b>" + berilio.nome;
+        document.getElementById('simbol').innerHTML = "<b>Símbolo: </b>" + berilio.simbolo;
+        document.getElementById('numero').innerHTML = "<b>Número: </b>" + berilio.numero;
+        document.getElementById('massa').innerHTML = "<b>Massa: </b>" + berilio.massa;
+        document.getElementById('cardItem').style.backgroundColor = 'rgba(19, 127, 250, 0.774)';
+        break;
+        case 22:document.getElementById('numc').innerHTML = berilio.numero;
+        document.getElementById('simbolo').innerHTML = berilio.simbolo;
+        document.getElementById('nomec').innerHTML = berilio.nome;
+        document.getElementById('numa').innerHTML = berilio.massa;
+
+        document.getElementById('nome').innerHTML = "<b>Nome: </b>" + berilio.nome;
+        document.getElementById('simbol').innerHTML = "<b>Símbolo: </b>" + berilio.simbolo;
+        document.getElementById('numero').innerHTML = "<b>Número: </b>" + berilio.numero;
+        document.getElementById('massa').innerHTML = "<b>Massa: </b>" + berilio.massa;
+        document.getElementById('cardItem').style.backgroundColor = 'rgba(19, 127, 250, 0.774)';
+        break;
+        case 23:document.getElementById('numc').innerHTML = berilio.numero;
+        document.getElementById('simbolo').innerHTML = berilio.simbolo;
+        document.getElementById('nomec').innerHTML = berilio.nome;
+        document.getElementById('numa').innerHTML = berilio.massa;
+
+        document.getElementById('nome').innerHTML = "<b>Nome: </b>" + berilio.nome;
+        document.getElementById('simbol').innerHTML = "<b>Símbolo: </b>" + berilio.simbolo;
+        document.getElementById('numero').innerHTML = "<b>Número: </b>" + berilio.numero;
+        document.getElementById('massa').innerHTML = "<b>Massa: </b>" + berilio.massa;
+        document.getElementById('cardItem').style.backgroundColor = 'rgba(19, 127, 250, 0.774)';
+        break;
+        case 24:document.getElementById('numc').innerHTML = berilio.numero;
+        document.getElementById('simbolo').innerHTML = berilio.simbolo;
+        document.getElementById('nomec').innerHTML = berilio.nome;
+        document.getElementById('numa').innerHTML = berilio.massa;
+
+        document.getElementById('nome').innerHTML = "<b>Nome: </b>" + berilio.nome;
+        document.getElementById('simbol').innerHTML = "<b>Símbolo: </b>" + berilio.simbolo;
+        document.getElementById('numero').innerHTML = "<b>Número: </b>" + berilio.numero;
+        document.getElementById('massa').innerHTML = "<b>Massa: </b>" + berilio.massa;
+        document.getElementById('cardItem').style.backgroundColor = 'rgba(19, 127, 250, 0.774)';
+        break;
+        case 25:document.getElementById('numc').innerHTML = berilio.numero;
+        document.getElementById('simbolo').innerHTML = berilio.simbolo;
+        document.getElementById('nomec').innerHTML = berilio.nome;
+        document.getElementById('numa').innerHTML = berilio.massa;
+
+        document.getElementById('nome').innerHTML = "<b>Nome: </b>" + berilio.nome;
+        document.getElementById('simbol').innerHTML = "<b>Símbolo: </b>" + berilio.simbolo;
+        document.getElementById('numero').innerHTML = "<b>Número: </b>" + berilio.numero;
+        document.getElementById('massa').innerHTML = "<b>Massa: </b>" + berilio.massa;
+        document.getElementById('cardItem').style.backgroundColor = 'rgba(19, 127, 250, 0.774)';
+        break;
+        case 26:document.getElementById('numc').innerHTML = berilio.numero;
+        document.getElementById('simbolo').innerHTML = berilio.simbolo;
+        document.getElementById('nomec').innerHTML = berilio.nome;
+        document.getElementById('numa').innerHTML = berilio.massa;
+
+        document.getElementById('nome').innerHTML = "<b>Nome: </b>" + berilio.nome;
+        document.getElementById('simbol').innerHTML = "<b>Símbolo: </b>" + berilio.simbolo;
+        document.getElementById('numero').innerHTML = "<b>Número: </b>" + berilio.numero;
+        document.getElementById('massa').innerHTML = "<b>Massa: </b>" + berilio.massa;
+        document.getElementById('cardItem').style.backgroundColor = 'rgba(19, 127, 250, 0.774)';
+        break;
+        case 27:document.getElementById('numc').innerHTML = berilio.numero;
+        document.getElementById('simbolo').innerHTML = berilio.simbolo;
+        document.getElementById('nomec').innerHTML = berilio.nome;
+        document.getElementById('numa').innerHTML = berilio.massa;
+
+        document.getElementById('nome').innerHTML = "<b>Nome: </b>" + berilio.nome;
+        document.getElementById('simbol').innerHTML = "<b>Símbolo: </b>" + berilio.simbolo;
+        document.getElementById('numero').innerHTML = "<b>Número: </b>" + berilio.numero;
+        document.getElementById('massa').innerHTML = "<b>Massa: </b>" + berilio.massa;
+        document.getElementById('cardItem').style.backgroundColor = 'rgba(19, 127, 250, 0.774)';
+        break;
+        case 28:document.getElementById('numc').innerHTML = berilio.numero;
+        document.getElementById('simbolo').innerHTML = berilio.simbolo;
+        document.getElementById('nomec').innerHTML = berilio.nome;
+        document.getElementById('numa').innerHTML = berilio.massa;
+
+        document.getElementById('nome').innerHTML = "<b>Nome: </b>" + berilio.nome;
+        document.getElementById('simbol').innerHTML = "<b>Símbolo: </b>" + berilio.simbolo;
+        document.getElementById('numero').innerHTML = "<b>Número: </b>" + berilio.numero;
+        document.getElementById('massa').innerHTML = "<b>Massa: </b>" + berilio.massa;
+        document.getElementById('cardItem').style.backgroundColor = 'rgba(19, 127, 250, 0.774)';
+        break;
+        case 29:document.getElementById('numc').innerHTML = berilio.numero;
+        document.getElementById('simbolo').innerHTML = berilio.simbolo;
+        document.getElementById('nomec').innerHTML = berilio.nome;
+        document.getElementById('numa').innerHTML = berilio.massa;
+
+        document.getElementById('nome').innerHTML = "<b>Nome: </b>" + berilio.nome;
+        document.getElementById('simbol').innerHTML = "<b>Símbolo: </b>" + berilio.simbolo;
+        document.getElementById('numero').innerHTML = "<b>Número: </b>" + berilio.numero;
+        document.getElementById('massa').innerHTML = "<b>Massa: </b>" + berilio.massa;
+        document.getElementById('cardItem').style.backgroundColor = 'rgba(19, 127, 250, 0.774)';
+        break;
+        case 30:document.getElementById('numc').innerHTML = berilio.numero;
+        document.getElementById('simbolo').innerHTML = berilio.simbolo;
+        document.getElementById('nomec').innerHTML = berilio.nome;
+        document.getElementById('numa').innerHTML = berilio.massa;
+
+        document.getElementById('nome').innerHTML = "<b>Nome: </b>" + berilio.nome;
+        document.getElementById('simbol').innerHTML = "<b>Símbolo: </b>" + berilio.simbolo;
+        document.getElementById('numero').innerHTML = "<b>Número: </b>" + berilio.numero;
+        document.getElementById('massa').innerHTML = "<b>Massa: </b>" + berilio.massa;
+        document.getElementById('cardItem').style.backgroundColor = 'rgba(19, 127, 250, 0.774)';
+        break;
+        case 31:document.getElementById('numc').innerHTML = berilio.numero;
+        document.getElementById('simbolo').innerHTML = berilio.simbolo;
+        document.getElementById('nomec').innerHTML = berilio.nome;
+        document.getElementById('numa').innerHTML = berilio.massa;
+
+        document.getElementById('nome').innerHTML = "<b>Nome: </b>" + berilio.nome;
+        document.getElementById('simbol').innerHTML = "<b>Símbolo: </b>" + berilio.simbolo;
+        document.getElementById('numero').innerHTML = "<b>Número: </b>" + berilio.numero;
+        document.getElementById('massa').innerHTML = "<b>Massa: </b>" + berilio.massa;
+        document.getElementById('cardItem').style.backgroundColor = 'rgba(19, 127, 250, 0.774)';
+        break;
+        case 32:document.getElementById('numc').innerHTML = berilio.numero;
+        document.getElementById('simbolo').innerHTML = berilio.simbolo;
+        document.getElementById('nomec').innerHTML = berilio.nome;
+        document.getElementById('numa').innerHTML = berilio.massa;
+
+        document.getElementById('nome').innerHTML = "<b>Nome: </b>" + berilio.nome;
+        document.getElementById('simbol').innerHTML = "<b>Símbolo: </b>" + berilio.simbolo;
+        document.getElementById('numero').innerHTML = "<b>Número: </b>" + berilio.numero;
+        document.getElementById('massa').innerHTML = "<b>Massa: </b>" + berilio.massa;
+        document.getElementById('cardItem').style.backgroundColor = 'rgba(19, 127, 250, 0.774)';
+        break;
+        case 33:document.getElementById('numc').innerHTML = berilio.numero;
+        document.getElementById('simbolo').innerHTML = berilio.simbolo;
+        document.getElementById('nomec').innerHTML = berilio.nome;
+        document.getElementById('numa').innerHTML = berilio.massa;
+
+        document.getElementById('nome').innerHTML = "<b>Nome: </b>" + berilio.nome;
+        document.getElementById('simbol').innerHTML = "<b>Símbolo: </b>" + berilio.simbolo;
+        document.getElementById('numero').innerHTML = "<b>Número: </b>" + berilio.numero;
+        document.getElementById('massa').innerHTML = "<b>Massa: </b>" + berilio.massa;
+        document.getElementById('cardItem').style.backgroundColor = 'rgba(19, 127, 250, 0.774)';
+        break;
+        case 34:document.getElementById('numc').innerHTML = berilio.numero;
+        document.getElementById('simbolo').innerHTML = berilio.simbolo;
+        document.getElementById('nomec').innerHTML = berilio.nome;
+        document.getElementById('numa').innerHTML = berilio.massa;
+
+        document.getElementById('nome').innerHTML = "<b>Nome: </b>" + berilio.nome;
+        document.getElementById('simbol').innerHTML = "<b>Símbolo: </b>" + berilio.simbolo;
+        document.getElementById('numero').innerHTML = "<b>Número: </b>" + berilio.numero;
+        document.getElementById('massa').innerHTML = "<b>Massa: </b>" + berilio.massa;
+        document.getElementById('cardItem').style.backgroundColor = 'rgba(19, 127, 250, 0.774)';
+        break;
+        case 35:document.getElementById('numc').innerHTML = berilio.numero;
+        document.getElementById('simbolo').innerHTML = berilio.simbolo;
+        document.getElementById('nomec').innerHTML = berilio.nome;
+        document.getElementById('numa').innerHTML = berilio.massa;
+
+        document.getElementById('nome').innerHTML = "<b>Nome: </b>" + berilio.nome;
+        document.getElementById('simbol').innerHTML = "<b>Símbolo: </b>" + berilio.simbolo;
+        document.getElementById('numero').innerHTML = "<b>Número: </b>" + berilio.numero;
+        document.getElementById('massa').innerHTML = "<b>Massa: </b>" + berilio.massa;
+        document.getElementById('cardItem').style.backgroundColor = 'rgba(19, 127, 250, 0.774)';
+        break;
+        case 36:document.getElementById('numc').innerHTML = berilio.numero;
+        document.getElementById('simbolo').innerHTML = berilio.simbolo;
+        document.getElementById('nomec').innerHTML = berilio.nome;
+        document.getElementById('numa').innerHTML = berilio.massa;
+
+        document.getElementById('nome').innerHTML = "<b>Nome: </b>" + berilio.nome;
+        document.getElementById('simbol').innerHTML = "<b>Símbolo: </b>" + berilio.simbolo;
+        document.getElementById('numero').innerHTML = "<b>Número: </b>" + berilio.numero;
+        document.getElementById('massa').innerHTML = "<b>Massa: </b>" + berilio.massa;
+        document.getElementById('cardItem').style.backgroundColor = 'rgba(19, 127, 250, 0.774)';
+        break;
+        case 37:document.getElementById('numc').innerHTML = berilio.numero;
+        document.getElementById('simbolo').innerHTML = berilio.simbolo;
+        document.getElementById('nomec').innerHTML = berilio.nome;
+        document.getElementById('numa').innerHTML = berilio.massa;
+
+        document.getElementById('nome').innerHTML = "<b>Nome: </b>" + berilio.nome;
+        document.getElementById('simbol').innerHTML = "<b>Símbolo: </b>" + berilio.simbolo;
+        document.getElementById('numero').innerHTML = "<b>Número: </b>" + berilio.numero;
+        document.getElementById('massa').innerHTML = "<b>Massa: </b>" + berilio.massa;
+        document.getElementById('cardItem').style.backgroundColor = 'rgba(19, 127, 250, 0.774)';
+        break;
+        case 38:document.getElementById('numc').innerHTML = berilio.numero;
+        document.getElementById('simbolo').innerHTML = berilio.simbolo;
+        document.getElementById('nomec').innerHTML = berilio.nome;
+        document.getElementById('numa').innerHTML = berilio.massa;
+
+        document.getElementById('nome').innerHTML = "<b>Nome: </b>" + berilio.nome;
+        document.getElementById('simbol').innerHTML = "<b>Símbolo: </b>" + berilio.simbolo;
+        document.getElementById('numero').innerHTML = "<b>Número: </b>" + berilio.numero;
+        document.getElementById('massa').innerHTML = "<b>Massa: </b>" + berilio.massa;
+        document.getElementById('cardItem').style.backgroundColor = 'rgba(19, 127, 250, 0.774)';
+        break;
+        case 39:document.getElementById('numc').innerHTML = berilio.numero;
+        document.getElementById('simbolo').innerHTML = berilio.simbolo;
+        document.getElementById('nomec').innerHTML = berilio.nome;
+        document.getElementById('numa').innerHTML = berilio.massa;
+
+        document.getElementById('nome').innerHTML = "<b>Nome: </b>" + berilio.nome;
+        document.getElementById('simbol').innerHTML = "<b>Símbolo: </b>" + berilio.simbolo;
+        document.getElementById('numero').innerHTML = "<b>Número: </b>" + berilio.numero;
+        document.getElementById('massa').innerHTML = "<b>Massa: </b>" + berilio.massa;
+        document.getElementById('cardItem').style.backgroundColor = 'rgba(19, 127, 250, 0.774)';
+        break;
+        case 40:document.getElementById('numc').innerHTML = berilio.numero;
+        document.getElementById('simbolo').innerHTML = berilio.simbolo;
+        document.getElementById('nomec').innerHTML = berilio.nome;
+        document.getElementById('numa').innerHTML = berilio.massa;
+
+        document.getElementById('nome').innerHTML = "<b>Nome: </b>" + berilio.nome;
+        document.getElementById('simbol').innerHTML = "<b>Símbolo: </b>" + berilio.simbolo;
+        document.getElementById('numero').innerHTML = "<b>Número: </b>" + berilio.numero;
+        document.getElementById('massa').innerHTML = "<b>Massa: </b>" + berilio.massa;
+        document.getElementById('cardItem').style.backgroundColor = 'rgba(19, 127, 250, 0.774)';
+        break;
+        case 41:document.getElementById('numc').innerHTML = berilio.numero;
+        document.getElementById('simbolo').innerHTML = berilio.simbolo;
+        document.getElementById('nomec').innerHTML = berilio.nome;
+        document.getElementById('numa').innerHTML = berilio.massa;
+
+        document.getElementById('nome').innerHTML = "<b>Nome: </b>" + berilio.nome;
+        document.getElementById('simbol').innerHTML = "<b>Símbolo: </b>" + berilio.simbolo;
+        document.getElementById('numero').innerHTML = "<b>Número: </b>" + berilio.numero;
+        document.getElementById('massa').innerHTML = "<b>Massa: </b>" + berilio.massa;
+        document.getElementById('cardItem').style.backgroundColor = 'rgba(19, 127, 250, 0.774)';
+        break;
+        case 42:document.getElementById('numc').innerHTML = berilio.numero;
+        document.getElementById('simbolo').innerHTML = berilio.simbolo;
+        document.getElementById('nomec').innerHTML = berilio.nome;
+        document.getElementById('numa').innerHTML = berilio.massa;
+
+        document.getElementById('nome').innerHTML = "<b>Nome: </b>" + berilio.nome;
+        document.getElementById('simbol').innerHTML = "<b>Símbolo: </b>" + berilio.simbolo;
+        document.getElementById('numero').innerHTML = "<b>Número: </b>" + berilio.numero;
+        document.getElementById('massa').innerHTML = "<b>Massa: </b>" + berilio.massa;
+        document.getElementById('cardItem').style.backgroundColor = 'rgba(19, 127, 250, 0.774)';
+        break;
+        case 43:document.getElementById('numc').innerHTML = berilio.numero;
+        document.getElementById('simbolo').innerHTML = berilio.simbolo;
+        document.getElementById('nomec').innerHTML = berilio.nome;
+        document.getElementById('numa').innerHTML = berilio.massa;
+
+        document.getElementById('nome').innerHTML = "<b>Nome: </b>" + berilio.nome;
+        document.getElementById('simbol').innerHTML = "<b>Símbolo: </b>" + berilio.simbolo;
+        document.getElementById('numero').innerHTML = "<b>Número: </b>" + berilio.numero;
+        document.getElementById('massa').innerHTML = "<b>Massa: </b>" + berilio.massa;
+        document.getElementById('cardItem').style.backgroundColor = 'rgba(19, 127, 250, 0.774)';
+        break;
+        case 44:document.getElementById('numc').innerHTML = berilio.numero;
+        document.getElementById('simbolo').innerHTML = berilio.simbolo;
+        document.getElementById('nomec').innerHTML = berilio.nome;
+        document.getElementById('numa').innerHTML = berilio.massa;
+
+        document.getElementById('nome').innerHTML = "<b>Nome: </b>" + berilio.nome;
+        document.getElementById('simbol').innerHTML = "<b>Símbolo: </b>" + berilio.simbolo;
+        document.getElementById('numero').innerHTML = "<b>Número: </b>" + berilio.numero;
+        document.getElementById('massa').innerHTML = "<b>Massa: </b>" + berilio.massa;
+        document.getElementById('cardItem').style.backgroundColor = 'rgba(19, 127, 250, 0.774)';
+        break;
+        case 45:document.getElementById('numc').innerHTML = berilio.numero;
+        document.getElementById('simbolo').innerHTML = berilio.simbolo;
+        document.getElementById('nomec').innerHTML = berilio.nome;
+        document.getElementById('numa').innerHTML = berilio.massa;
+
+        document.getElementById('nome').innerHTML = "<b>Nome: </b>" + berilio.nome;
+        document.getElementById('simbol').innerHTML = "<b>Símbolo: </b>" + berilio.simbolo;
+        document.getElementById('numero').innerHTML = "<b>Número: </b>" + berilio.numero;
+        document.getElementById('massa').innerHTML = "<b>Massa: </b>" + berilio.massa;
+        document.getElementById('cardItem').style.backgroundColor = 'rgba(19, 127, 250, 0.774)';
+        break;
+        case 46:document.getElementById('numc').innerHTML = berilio.numero;
+        document.getElementById('simbolo').innerHTML = berilio.simbolo;
+        document.getElementById('nomec').innerHTML = berilio.nome;
+        document.getElementById('numa').innerHTML = berilio.massa;
+
+        document.getElementById('nome').innerHTML = "<b>Nome: </b>" + berilio.nome;
+        document.getElementById('simbol').innerHTML = "<b>Símbolo: </b>" + berilio.simbolo;
+        document.getElementById('numero').innerHTML = "<b>Número: </b>" + berilio.numero;
+        document.getElementById('massa').innerHTML = "<b>Massa: </b>" + berilio.massa;
+        document.getElementById('cardItem').style.backgroundColor = 'rgba(19, 127, 250, 0.774)';
+        break;
+        case 47:document.getElementById('numc').innerHTML = berilio.numero;
+        document.getElementById('simbolo').innerHTML = berilio.simbolo;
+        document.getElementById('nomec').innerHTML = berilio.nome;
+        document.getElementById('numa').innerHTML = berilio.massa;
+
+        document.getElementById('nome').innerHTML = "<b>Nome: </b>" + berilio.nome;
+        document.getElementById('simbol').innerHTML = "<b>Símbolo: </b>" + berilio.simbolo;
+        document.getElementById('numero').innerHTML = "<b>Número: </b>" + berilio.numero;
+        document.getElementById('massa').innerHTML = "<b>Massa: </b>" + berilio.massa;
+        document.getElementById('cardItem').style.backgroundColor = 'rgba(19, 127, 250, 0.774)';
+        break;
+        case 48:document.getElementById('numc').innerHTML = berilio.numero;
+        document.getElementById('simbolo').innerHTML = berilio.simbolo;
+        document.getElementById('nomec').innerHTML = berilio.nome;
+        document.getElementById('numa').innerHTML = berilio.massa;
+
+        document.getElementById('nome').innerHTML = "<b>Nome: </b>" + berilio.nome;
+        document.getElementById('simbol').innerHTML = "<b>Símbolo: </b>" + berilio.simbolo;
+        document.getElementById('numero').innerHTML = "<b>Número: </b>" + berilio.numero;
+        document.getElementById('massa').innerHTML = "<b>Massa: </b>" + berilio.massa;
+        document.getElementById('cardItem').style.backgroundColor = 'rgba(19, 127, 250, 0.774)';
+        break;
+        case 49:document.getElementById('numc').innerHTML = berilio.numero;
+        document.getElementById('simbolo').innerHTML = berilio.simbolo;
+        document.getElementById('nomec').innerHTML = berilio.nome;
+        document.getElementById('numa').innerHTML = berilio.massa;
+
+        document.getElementById('nome').innerHTML = "<b>Nome: </b>" + berilio.nome;
+        document.getElementById('simbol').innerHTML = "<b>Símbolo: </b>" + berilio.simbolo;
+        document.getElementById('numero').innerHTML = "<b>Número: </b>" + berilio.numero;
+        document.getElementById('massa').innerHTML = "<b>Massa: </b>" + berilio.massa;
+        document.getElementById('cardItem').style.backgroundColor = 'rgba(19, 127, 250, 0.774)';
+        break;
+        case 50:document.getElementById('numc').innerHTML = berilio.numero;
+        document.getElementById('simbolo').innerHTML = berilio.simbolo;
+        document.getElementById('nomec').innerHTML = berilio.nome;
+        document.getElementById('numa').innerHTML = berilio.massa;
+
+        document.getElementById('nome').innerHTML = "<b>Nome: </b>" + berilio.nome;
+        document.getElementById('simbol').innerHTML = "<b>Símbolo: </b>" + berilio.simbolo;
+        document.getElementById('numero').innerHTML = "<b>Número: </b>" + berilio.numero;
+        document.getElementById('massa').innerHTML = "<b>Massa: </b>" + berilio.massa;
+        document.getElementById('cardItem').style.backgroundColor = 'rgba(19, 127, 250, 0.774)';
+        break;
+        case 51:document.getElementById('numc').innerHTML = berilio.numero;
+        document.getElementById('simbolo').innerHTML = berilio.simbolo;
+        document.getElementById('nomec').innerHTML = berilio.nome;
+        document.getElementById('numa').innerHTML = berilio.massa;
+
+        document.getElementById('nome').innerHTML = "<b>Nome: </b>" + berilio.nome;
+        document.getElementById('simbol').innerHTML = "<b>Símbolo: </b>" + berilio.simbolo;
+        document.getElementById('numero').innerHTML = "<b>Número: </b>" + berilio.numero;
+        document.getElementById('massa').innerHTML = "<b>Massa: </b>" + berilio.massa;
+        document.getElementById('cardItem').style.backgroundColor = 'rgba(19, 127, 250, 0.774)';
+        break;
+        case 52:document.getElementById('numc').innerHTML = berilio.numero;
+        document.getElementById('simbolo').innerHTML = berilio.simbolo;
+        document.getElementById('nomec').innerHTML = berilio.nome;
+        document.getElementById('numa').innerHTML = berilio.massa;
+
+        document.getElementById('nome').innerHTML = "<b>Nome: </b>" + berilio.nome;
+        document.getElementById('simbol').innerHTML = "<b>Símbolo: </b>" + berilio.simbolo;
+        document.getElementById('numero').innerHTML = "<b>Número: </b>" + berilio.numero;
+        document.getElementById('massa').innerHTML = "<b>Massa: </b>" + berilio.massa;
+        document.getElementById('cardItem').style.backgroundColor = 'rgba(19, 127, 250, 0.774)';
+        break;
+        case 53:document.getElementById('numc').innerHTML = berilio.numero;
+        document.getElementById('simbolo').innerHTML = berilio.simbolo;
+        document.getElementById('nomec').innerHTML = berilio.nome;
+        document.getElementById('numa').innerHTML = berilio.massa;
+
+        document.getElementById('nome').innerHTML = "<b>Nome: </b>" + berilio.nome;
+        document.getElementById('simbol').innerHTML = "<b>Símbolo: </b>" + berilio.simbolo;
+        document.getElementById('numero').innerHTML = "<b>Número: </b>" + berilio.numero;
+        document.getElementById('massa').innerHTML = "<b>Massa: </b>" + berilio.massa;
+        document.getElementById('cardItem').style.backgroundColor = 'rgba(19, 127, 250, 0.774)';
+        break;
+        case 54:document.getElementById('numc').innerHTML = berilio.numero;
+        document.getElementById('simbolo').innerHTML = berilio.simbolo;
+        document.getElementById('nomec').innerHTML = berilio.nome;
+        document.getElementById('numa').innerHTML = berilio.massa;
+
+        document.getElementById('nome').innerHTML = "<b>Nome: </b>" + berilio.nome;
+        document.getElementById('simbol').innerHTML = "<b>Símbolo: </b>" + berilio.simbolo;
+        document.getElementById('numero').innerHTML = "<b>Número: </b>" + berilio.numero;
+        document.getElementById('massa').innerHTML = "<b>Massa: </b>" + berilio.massa;
+        document.getElementById('cardItem').style.backgroundColor = 'rgba(19, 127, 250, 0.774)';
+        break;
+        case 55:document.getElementById('numc').innerHTML = berilio.numero;
+        document.getElementById('simbolo').innerHTML = berilio.simbolo;
+        document.getElementById('nomec').innerHTML = berilio.nome;
+        document.getElementById('numa').innerHTML = berilio.massa;
+
+        document.getElementById('nome').innerHTML = "<b>Nome: </b>" + berilio.nome;
+        document.getElementById('simbol').innerHTML = "<b>Símbolo: </b>" + berilio.simbolo;
+        document.getElementById('numero').innerHTML = "<b>Número: </b>" + berilio.numero;
+        document.getElementById('massa').innerHTML = "<b>Massa: </b>" + berilio.massa;
+        document.getElementById('cardItem').style.backgroundColor = 'rgba(19, 127, 250, 0.774)';
+        break;
+        case 56:document.getElementById('numc').innerHTML = berilio.numero;
+        document.getElementById('simbolo').innerHTML = berilio.simbolo;
+        document.getElementById('nomec').innerHTML = berilio.nome;
+        document.getElementById('numa').innerHTML = berilio.massa;
+
+        document.getElementById('nome').innerHTML = "<b>Nome: </b>" + berilio.nome;
+        document.getElementById('simbol').innerHTML = "<b>Símbolo: </b>" + berilio.simbolo;
+        document.getElementById('numero').innerHTML = "<b>Número: </b>" + berilio.numero;
+        document.getElementById('massa').innerHTML = "<b>Massa: </b>" + berilio.massa;
+        document.getElementById('cardItem').style.backgroundColor = 'rgba(19, 127, 250, 0.774)';
+        break;
+        case 57:document.getElementById('numc').innerHTML = berilio.numero;
+        document.getElementById('simbolo').innerHTML = berilio.simbolo;
+        document.getElementById('nomec').innerHTML = berilio.nome;
+        document.getElementById('numa').innerHTML = berilio.massa;
+
+        document.getElementById('nome').innerHTML = "<b>Nome: </b>" + berilio.nome;
+        document.getElementById('simbol').innerHTML = "<b>Símbolo: </b>" + berilio.simbolo;
+        document.getElementById('numero').innerHTML = "<b>Número: </b>" + berilio.numero;
+        document.getElementById('massa').innerHTML = "<b>Massa: </b>" + berilio.massa;
+        document.getElementById('cardItem').style.backgroundColor = 'rgba(19, 127, 250, 0.774)';
+        break;
+        case 58:document.getElementById('numc').innerHTML = berilio.numero;
+        document.getElementById('simbolo').innerHTML = berilio.simbolo;
+        document.getElementById('nomec').innerHTML = berilio.nome;
+        document.getElementById('numa').innerHTML = berilio.massa;
+
+        document.getElementById('nome').innerHTML = "<b>Nome: </b>" + berilio.nome;
+        document.getElementById('simbol').innerHTML = "<b>Símbolo: </b>" + berilio.simbolo;
+        document.getElementById('numero').innerHTML = "<b>Número: </b>" + berilio.numero;
+        document.getElementById('massa').innerHTML = "<b>Massa: </b>" + berilio.massa;
+        document.getElementById('cardItem').style.backgroundColor = 'rgba(19, 127, 250, 0.774)';
+        break;
+        case 59:document.getElementById('numc').innerHTML = berilio.numero;
+        document.getElementById('simbolo').innerHTML = berilio.simbolo;
+        document.getElementById('nomec').innerHTML = berilio.nome;
+        document.getElementById('numa').innerHTML = berilio.massa;
+
+        document.getElementById('nome').innerHTML = "<b>Nome: </b>" + berilio.nome;
+        document.getElementById('simbol').innerHTML = "<b>Símbolo: </b>" + berilio.simbolo;
+        document.getElementById('numero').innerHTML = "<b>Número: </b>" + berilio.numero;
+        document.getElementById('massa').innerHTML = "<b>Massa: </b>" + berilio.massa;
+        document.getElementById('cardItem').style.backgroundColor = 'rgba(19, 127, 250, 0.774)';
+        break;
+        case 60:document.getElementById('numc').innerHTML = berilio.numero;
+        document.getElementById('simbolo').innerHTML = berilio.simbolo;
+        document.getElementById('nomec').innerHTML = berilio.nome;
+        document.getElementById('numa').innerHTML = berilio.massa;
+
+        document.getElementById('nome').innerHTML = "<b>Nome: </b>" + berilio.nome;
+        document.getElementById('simbol').innerHTML = "<b>Símbolo: </b>" + berilio.simbolo;
+        document.getElementById('numero').innerHTML = "<b>Número: </b>" + berilio.numero;
+        document.getElementById('massa').innerHTML = "<b>Massa: </b>" + berilio.massa;
+        document.getElementById('cardItem').style.backgroundColor = 'rgba(19, 127, 250, 0.774)';
+        break;
+        case 61:document.getElementById('numc').innerHTML = berilio.numero;
+        document.getElementById('simbolo').innerHTML = berilio.simbolo;
+        document.getElementById('nomec').innerHTML = berilio.nome;
+        document.getElementById('numa').innerHTML = berilio.massa;
+
+        document.getElementById('nome').innerHTML = "<b>Nome: </b>" + berilio.nome;
+        document.getElementById('simbol').innerHTML = "<b>Símbolo: </b>" + berilio.simbolo;
+        document.getElementById('numero').innerHTML = "<b>Número: </b>" + berilio.numero;
+        document.getElementById('massa').innerHTML = "<b>Massa: </b>" + berilio.massa;
+        document.getElementById('cardItem').style.backgroundColor = 'rgba(19, 127, 250, 0.774)';
+        break;
+        case 62:document.getElementById('numc').innerHTML = berilio.numero;
+        document.getElementById('simbolo').innerHTML = berilio.simbolo;
+        document.getElementById('nomec').innerHTML = berilio.nome;
+        document.getElementById('numa').innerHTML = berilio.massa;
+
+        document.getElementById('nome').innerHTML = "<b>Nome: </b>" + berilio.nome;
+        document.getElementById('simbol').innerHTML = "<b>Símbolo: </b>" + berilio.simbolo;
+        document.getElementById('numero').innerHTML = "<b>Número: </b>" + berilio.numero;
+        document.getElementById('massa').innerHTML = "<b>Massa: </b>" + berilio.massa;
+        document.getElementById('cardItem').style.backgroundColor = 'rgba(19, 127, 250, 0.774)';
+        break;
+        case 63:document.getElementById('numc').innerHTML = berilio.numero;
+        document.getElementById('simbolo').innerHTML = berilio.simbolo;
+        document.getElementById('nomec').innerHTML = berilio.nome;
+        document.getElementById('numa').innerHTML = berilio.massa;
+
+        document.getElementById('nome').innerHTML = "<b>Nome: </b>" + berilio.nome;
+        document.getElementById('simbol').innerHTML = "<b>Símbolo: </b>" + berilio.simbolo;
+        document.getElementById('numero').innerHTML = "<b>Número: </b>" + berilio.numero;
+        document.getElementById('massa').innerHTML = "<b>Massa: </b>" + berilio.massa;
+        document.getElementById('cardItem').style.backgroundColor = 'rgba(19, 127, 250, 0.774)';
+        break;
+        case 64:document.getElementById('numc').innerHTML = berilio.numero;
+        document.getElementById('simbolo').innerHTML = berilio.simbolo;
+        document.getElementById('nomec').innerHTML = berilio.nome;
+        document.getElementById('numa').innerHTML = berilio.massa;
+
+        document.getElementById('nome').innerHTML = "<b>Nome: </b>" + berilio.nome;
+        document.getElementById('simbol').innerHTML = "<b>Símbolo: </b>" + berilio.simbolo;
+        document.getElementById('numero').innerHTML = "<b>Número: </b>" + berilio.numero;
+        document.getElementById('massa').innerHTML = "<b>Massa: </b>" + berilio.massa;
+        document.getElementById('cardItem').style.backgroundColor = 'rgba(19, 127, 250, 0.774)';
+        break;
+        case 65:document.getElementById('numc').innerHTML = berilio.numero;
+        document.getElementById('simbolo').innerHTML = berilio.simbolo;
+        document.getElementById('nomec').innerHTML = berilio.nome;
+        document.getElementById('numa').innerHTML = berilio.massa;
+
+        document.getElementById('nome').innerHTML = "<b>Nome: </b>" + berilio.nome;
+        document.getElementById('simbol').innerHTML = "<b>Símbolo: </b>" + berilio.simbolo;
+        document.getElementById('numero').innerHTML = "<b>Número: </b>" + berilio.numero;
+        document.getElementById('massa').innerHTML = "<b>Massa: </b>" + berilio.massa;
+        document.getElementById('cardItem').style.backgroundColor = 'rgba(19, 127, 250, 0.774)';
+        break;
+        case 66:document.getElementById('numc').innerHTML = berilio.numero;
+        document.getElementById('simbolo').innerHTML = berilio.simbolo;
+        document.getElementById('nomec').innerHTML = berilio.nome;
+        document.getElementById('numa').innerHTML = berilio.massa;
+
+        document.getElementById('nome').innerHTML = "<b>Nome: </b>" + berilio.nome;
+        document.getElementById('simbol').innerHTML = "<b>Símbolo: </b>" + berilio.simbolo;
+        document.getElementById('numero').innerHTML = "<b>Número: </b>" + berilio.numero;
+        document.getElementById('massa').innerHTML = "<b>Massa: </b>" + berilio.massa;
+        document.getElementById('cardItem').style.backgroundColor = 'rgba(19, 127, 250, 0.774)';
+        break;
+        case 67:document.getElementById('numc').innerHTML = berilio.numero;
+        document.getElementById('simbolo').innerHTML = berilio.simbolo;
+        document.getElementById('nomec').innerHTML = berilio.nome;
+        document.getElementById('numa').innerHTML = berilio.massa;
+
+        document.getElementById('nome').innerHTML = "<b>Nome: </b>" + berilio.nome;
+        document.getElementById('simbol').innerHTML = "<b>Símbolo: </b>" + berilio.simbolo;
+        document.getElementById('numero').innerHTML = "<b>Número: </b>" + berilio.numero;
+        document.getElementById('massa').innerHTML = "<b>Massa: </b>" + berilio.massa;
+        document.getElementById('cardItem').style.backgroundColor = 'rgba(19, 127, 250, 0.774)';
+        break;
+        case 68:document.getElementById('numc').innerHTML = berilio.numero;
+        document.getElementById('simbolo').innerHTML = berilio.simbolo;
+        document.getElementById('nomec').innerHTML = berilio.nome;
+        document.getElementById('numa').innerHTML = berilio.massa;
+
+        document.getElementById('nome').innerHTML = "<b>Nome: </b>" + berilio.nome;
+        document.getElementById('simbol').innerHTML = "<b>Símbolo: </b>" + berilio.simbolo;
+        document.getElementById('numero').innerHTML = "<b>Número: </b>" + berilio.numero;
+        document.getElementById('massa').innerHTML = "<b>Massa: </b>" + berilio.massa;
+        document.getElementById('cardItem').style.backgroundColor = 'rgba(19, 127, 250, 0.774)';
+        break;
+        case 69:document.getElementById('numc').innerHTML = berilio.numero;
+        document.getElementById('simbolo').innerHTML = berilio.simbolo;
+        document.getElementById('nomec').innerHTML = berilio.nome;
+        document.getElementById('numa').innerHTML = berilio.massa;
+
+        document.getElementById('nome').innerHTML = "<b>Nome: </b>" + berilio.nome;
+        document.getElementById('simbol').innerHTML = "<b>Símbolo: </b>" + berilio.simbolo;
+        document.getElementById('numero').innerHTML = "<b>Número: </b>" + berilio.numero;
+        document.getElementById('massa').innerHTML = "<b>Massa: </b>" + berilio.massa;
+        document.getElementById('cardItem').style.backgroundColor = 'rgba(19, 127, 250, 0.774)';
+        break;
+        case 70:document.getElementById('numc').innerHTML = berilio.numero;
+        document.getElementById('simbolo').innerHTML = berilio.simbolo;
+        document.getElementById('nomec').innerHTML = berilio.nome;
+        document.getElementById('numa').innerHTML = berilio.massa;
+
+        document.getElementById('nome').innerHTML = "<b>Nome: </b>" + berilio.nome;
+        document.getElementById('simbol').innerHTML = "<b>Símbolo: </b>" + berilio.simbolo;
+        document.getElementById('numero').innerHTML = "<b>Número: </b>" + berilio.numero;
+        document.getElementById('massa').innerHTML = "<b>Massa: </b>" + berilio.massa;
+        document.getElementById('cardItem').style.backgroundColor = 'rgba(19, 127, 250, 0.774)';
+        break;
+        case 71:document.getElementById('numc').innerHTML = berilio.numero;
+        document.getElementById('simbolo').innerHTML = berilio.simbolo;
+        document.getElementById('nomec').innerHTML = berilio.nome;
+        document.getElementById('numa').innerHTML = berilio.massa;
+
+        document.getElementById('nome').innerHTML = "<b>Nome: </b>" + berilio.nome;
+        document.getElementById('simbol').innerHTML = "<b>Símbolo: </b>" + berilio.simbolo;
+        document.getElementById('numero').innerHTML = "<b>Número: </b>" + berilio.numero;
+        document.getElementById('massa').innerHTML = "<b>Massa: </b>" + berilio.massa;
+        document.getElementById('cardItem').style.backgroundColor = 'rgba(19, 127, 250, 0.774)';
+        break;
+        case 72:document.getElementById('numc').innerHTML = berilio.numero;
+        document.getElementById('simbolo').innerHTML = berilio.simbolo;
+        document.getElementById('nomec').innerHTML = berilio.nome;
+        document.getElementById('numa').innerHTML = berilio.massa;
+
+        document.getElementById('nome').innerHTML = "<b>Nome: </b>" + berilio.nome;
+        document.getElementById('simbol').innerHTML = "<b>Símbolo: </b>" + berilio.simbolo;
+        document.getElementById('numero').innerHTML = "<b>Número: </b>" + berilio.numero;
+        document.getElementById('massa').innerHTML = "<b>Massa: </b>" + berilio.massa;
+        document.getElementById('cardItem').style.backgroundColor = 'rgba(19, 127, 250, 0.774)';
+        break;
+        case 73:document.getElementById('numc').innerHTML = berilio.numero;
+        document.getElementById('simbolo').innerHTML = berilio.simbolo;
+        document.getElementById('nomec').innerHTML = berilio.nome;
+        document.getElementById('numa').innerHTML = berilio.massa;
+
+        document.getElementById('nome').innerHTML = "<b>Nome: </b>" + berilio.nome;
+        document.getElementById('simbol').innerHTML = "<b>Símbolo: </b>" + berilio.simbolo;
+        document.getElementById('numero').innerHTML = "<b>Número: </b>" + berilio.numero;
+        document.getElementById('massa').innerHTML = "<b>Massa: </b>" + berilio.massa;
+        document.getElementById('cardItem').style.backgroundColor = 'rgba(19, 127, 250, 0.774)';
+        break;
+        case 74:document.getElementById('numc').innerHTML = berilio.numero;
+        document.getElementById('simbolo').innerHTML = berilio.simbolo;
+        document.getElementById('nomec').innerHTML = berilio.nome;
+        document.getElementById('numa').innerHTML = berilio.massa;
+
+        document.getElementById('nome').innerHTML = "<b>Nome: </b>" + berilio.nome;
+        document.getElementById('simbol').innerHTML = "<b>Símbolo: </b>" + berilio.simbolo;
+        document.getElementById('numero').innerHTML = "<b>Número: </b>" + berilio.numero;
+        document.getElementById('massa').innerHTML = "<b>Massa: </b>" + berilio.massa;
+        document.getElementById('cardItem').style.backgroundColor = 'rgba(19, 127, 250, 0.774)';
+        break;
+        case 75:document.getElementById('numc').innerHTML = berilio.numero;
+        document.getElementById('simbolo').innerHTML = berilio.simbolo;
+        document.getElementById('nomec').innerHTML = berilio.nome;
+        document.getElementById('numa').innerHTML = berilio.massa;
+
+        document.getElementById('nome').innerHTML = "<b>Nome: </b>" + berilio.nome;
+        document.getElementById('simbol').innerHTML = "<b>Símbolo: </b>" + berilio.simbolo;
+        document.getElementById('numero').innerHTML = "<b>Número: </b>" + berilio.numero;
+        document.getElementById('massa').innerHTML = "<b>Massa: </b>" + berilio.massa;
+        document.getElementById('cardItem').style.backgroundColor = 'rgba(19, 127, 250, 0.774)';
+        break;
+        case 76:document.getElementById('numc').innerHTML = berilio.numero;
+        document.getElementById('simbolo').innerHTML = berilio.simbolo;
+        document.getElementById('nomec').innerHTML = berilio.nome;
+        document.getElementById('numa').innerHTML = berilio.massa;
+
+        document.getElementById('nome').innerHTML = "<b>Nome: </b>" + berilio.nome;
+        document.getElementById('simbol').innerHTML = "<b>Símbolo: </b>" + berilio.simbolo;
+        document.getElementById('numero').innerHTML = "<b>Número: </b>" + berilio.numero;
+        document.getElementById('massa').innerHTML = "<b>Massa: </b>" + berilio.massa;
+        document.getElementById('cardItem').style.backgroundColor = 'rgba(19, 127, 250, 0.774)';
+        break;
+        case 77:document.getElementById('numc').innerHTML = berilio.numero;
+        document.getElementById('simbolo').innerHTML = berilio.simbolo;
+        document.getElementById('nomec').innerHTML = berilio.nome;
+        document.getElementById('numa').innerHTML = berilio.massa;
+
+        document.getElementById('nome').innerHTML = "<b>Nome: </b>" + berilio.nome;
+        document.getElementById('simbol').innerHTML = "<b>Símbolo: </b>" + berilio.simbolo;
+        document.getElementById('numero').innerHTML = "<b>Número: </b>" + berilio.numero;
+        document.getElementById('massa').innerHTML = "<b>Massa: </b>" + berilio.massa;
+        document.getElementById('cardItem').style.backgroundColor = 'rgba(19, 127, 250, 0.774)';
+        break;
+        case 78:document.getElementById('numc').innerHTML = berilio.numero;
+        document.getElementById('simbolo').innerHTML = berilio.simbolo;
+        document.getElementById('nomec').innerHTML = berilio.nome;
+        document.getElementById('numa').innerHTML = berilio.massa;
+
+        document.getElementById('nome').innerHTML = "<b>Nome: </b>" + berilio.nome;
+        document.getElementById('simbol').innerHTML = "<b>Símbolo: </b>" + berilio.simbolo;
+        document.getElementById('numero').innerHTML = "<b>Número: </b>" + berilio.numero;
+        document.getElementById('massa').innerHTML = "<b>Massa: </b>" + berilio.massa;
+        document.getElementById('cardItem').style.backgroundColor = 'rgba(19, 127, 250, 0.774)';
+        break;
+        case 79:document.getElementById('numc').innerHTML = berilio.numero;
+        document.getElementById('simbolo').innerHTML = berilio.simbolo;
+        document.getElementById('nomec').innerHTML = berilio.nome;
+        document.getElementById('numa').innerHTML = berilio.massa;
+
+        document.getElementById('nome').innerHTML = "<b>Nome: </b>" + berilio.nome;
+        document.getElementById('simbol').innerHTML = "<b>Símbolo: </b>" + berilio.simbolo;
+        document.getElementById('numero').innerHTML = "<b>Número: </b>" + berilio.numero;
+        document.getElementById('massa').innerHTML = "<b>Massa: </b>" + berilio.massa;
+        document.getElementById('cardItem').style.backgroundColor = 'rgba(19, 127, 250, 0.774)';
+        break;
+        case 80:document.getElementById('numc').innerHTML = berilio.numero;
+        document.getElementById('simbolo').innerHTML = berilio.simbolo;
+        document.getElementById('nomec').innerHTML = berilio.nome;
+        document.getElementById('numa').innerHTML = berilio.massa;
+
+        document.getElementById('nome').innerHTML = "<b>Nome: </b>" + berilio.nome;
+        document.getElementById('simbol').innerHTML = "<b>Símbolo: </b>" + berilio.simbolo;
+        document.getElementById('numero').innerHTML = "<b>Número: </b>" + berilio.numero;
+        document.getElementById('massa').innerHTML = "<b>Massa: </b>" + berilio.massa;
+        document.getElementById('cardItem').style.backgroundColor = 'rgba(19, 127, 250, 0.774)';
+        break;
+        case 81:document.getElementById('numc').innerHTML = berilio.numero;
+        document.getElementById('simbolo').innerHTML = berilio.simbolo;
+        document.getElementById('nomec').innerHTML = berilio.nome;
+        document.getElementById('numa').innerHTML = berilio.massa;
+
+        document.getElementById('nome').innerHTML = "<b>Nome: </b>" + berilio.nome;
+        document.getElementById('simbol').innerHTML = "<b>Símbolo: </b>" + berilio.simbolo;
+        document.getElementById('numero').innerHTML = "<b>Número: </b>" + berilio.numero;
+        document.getElementById('massa').innerHTML = "<b>Massa: </b>" + berilio.massa;
+        document.getElementById('cardItem').style.backgroundColor = 'rgba(19, 127, 250, 0.774)';
+        break;
+        case 82:document.getElementById('numc').innerHTML = berilio.numero;
+        document.getElementById('simbolo').innerHTML = berilio.simbolo;
+        document.getElementById('nomec').innerHTML = berilio.nome;
+        document.getElementById('numa').innerHTML = berilio.massa;
+
+        document.getElementById('nome').innerHTML = "<b>Nome: </b>" + berilio.nome;
+        document.getElementById('simbol').innerHTML = "<b>Símbolo: </b>" + berilio.simbolo;
+        document.getElementById('numero').innerHTML = "<b>Número: </b>" + berilio.numero;
+        document.getElementById('massa').innerHTML = "<b>Massa: </b>" + berilio.massa;
+        document.getElementById('cardItem').style.backgroundColor = 'rgba(19, 127, 250, 0.774)';
+        break;
+        case 83:document.getElementById('numc').innerHTML = berilio.numero;
+        document.getElementById('simbolo').innerHTML = berilio.simbolo;
+        document.getElementById('nomec').innerHTML = berilio.nome;
+        document.getElementById('numa').innerHTML = berilio.massa;
+
+        document.getElementById('nome').innerHTML = "<b>Nome: </b>" + berilio.nome;
+        document.getElementById('simbol').innerHTML = "<b>Símbolo: </b>" + berilio.simbolo;
+        document.getElementById('numero').innerHTML = "<b>Número: </b>" + berilio.numero;
+        document.getElementById('massa').innerHTML = "<b>Massa: </b>" + berilio.massa;
+        document.getElementById('cardItem').style.backgroundColor = 'rgba(19, 127, 250, 0.774)';
+        break;
+        case 84:document.getElementById('numc').innerHTML = berilio.numero;
+        document.getElementById('simbolo').innerHTML = berilio.simbolo;
+        document.getElementById('nomec').innerHTML = berilio.nome;
+        document.getElementById('numa').innerHTML = berilio.massa;
+
+        document.getElementById('nome').innerHTML = "<b>Nome: </b>" + berilio.nome;
+        document.getElementById('simbol').innerHTML = "<b>Símbolo: </b>" + berilio.simbolo;
+        document.getElementById('numero').innerHTML = "<b>Número: </b>" + berilio.numero;
+        document.getElementById('massa').innerHTML = "<b>Massa: </b>" + berilio.massa;
+        document.getElementById('cardItem').style.backgroundColor = 'rgba(19, 127, 250, 0.774)';
+        break;
+        case 85:document.getElementById('numc').innerHTML = berilio.numero;
+        document.getElementById('simbolo').innerHTML = berilio.simbolo;
+        document.getElementById('nomec').innerHTML = berilio.nome;
+        document.getElementById('numa').innerHTML = berilio.massa;
+
+        document.getElementById('nome').innerHTML = "<b>Nome: </b>" + berilio.nome;
+        document.getElementById('simbol').innerHTML = "<b>Símbolo: </b>" + berilio.simbolo;
+        document.getElementById('numero').innerHTML = "<b>Número: </b>" + berilio.numero;
+        document.getElementById('massa').innerHTML = "<b>Massa: </b>" + berilio.massa;
+        document.getElementById('cardItem').style.backgroundColor = 'rgba(19, 127, 250, 0.774)';
+        break;
+        case 86:document.getElementById('numc').innerHTML = berilio.numero;
+        document.getElementById('simbolo').innerHTML = berilio.simbolo;
+        document.getElementById('nomec').innerHTML = berilio.nome;
+        document.getElementById('numa').innerHTML = berilio.massa;
+
+        document.getElementById('nome').innerHTML = "<b>Nome: </b>" + berilio.nome;
+        document.getElementById('simbol').innerHTML = "<b>Símbolo: </b>" + berilio.simbolo;
+        document.getElementById('numero').innerHTML = "<b>Número: </b>" + berilio.numero;
+        document.getElementById('massa').innerHTML = "<b>Massa: </b>" + berilio.massa;
+        document.getElementById('cardItem').style.backgroundColor = 'rgba(19, 127, 250, 0.774)';
+        break;
+        case 87:document.getElementById('numc').innerHTML = berilio.numero;
+        document.getElementById('simbolo').innerHTML = berilio.simbolo;
+        document.getElementById('nomec').innerHTML = berilio.nome;
+        document.getElementById('numa').innerHTML = berilio.massa;
+
+        document.getElementById('nome').innerHTML = "<b>Nome: </b>" + berilio.nome;
+        document.getElementById('simbol').innerHTML = "<b>Símbolo: </b>" + berilio.simbolo;
+        document.getElementById('numero').innerHTML = "<b>Número: </b>" + berilio.numero;
+        document.getElementById('massa').innerHTML = "<b>Massa: </b>" + berilio.massa;
+        document.getElementById('cardItem').style.backgroundColor = 'rgba(19, 127, 250, 0.774)';
+        break;
+        case 88:document.getElementById('numc').innerHTML = berilio.numero;
+        document.getElementById('simbolo').innerHTML = berilio.simbolo;
+        document.getElementById('nomec').innerHTML = berilio.nome;
+        document.getElementById('numa').innerHTML = berilio.massa;
+
+        document.getElementById('nome').innerHTML = "<b>Nome: </b>" + berilio.nome;
+        document.getElementById('simbol').innerHTML = "<b>Símbolo: </b>" + berilio.simbolo;
+        document.getElementById('numero').innerHTML = "<b>Número: </b>" + berilio.numero;
+        document.getElementById('massa').innerHTML = "<b>Massa: </b>" + berilio.massa;
+        document.getElementById('cardItem').style.backgroundColor = 'rgba(19, 127, 250, 0.774)';
+        break;
+        case 89:document.getElementById('numc').innerHTML = berilio.numero;
+        document.getElementById('simbolo').innerHTML = berilio.simbolo;
+        document.getElementById('nomec').innerHTML = berilio.nome;
+        document.getElementById('numa').innerHTML = berilio.massa;
+
+        document.getElementById('nome').innerHTML = "<b>Nome: </b>" + berilio.nome;
+        document.getElementById('simbol').innerHTML = "<b>Símbolo: </b>" + berilio.simbolo;
+        document.getElementById('numero').innerHTML = "<b>Número: </b>" + berilio.numero;
+        document.getElementById('massa').innerHTML = "<b>Massa: </b>" + berilio.massa;
+        document.getElementById('cardItem').style.backgroundColor = 'rgba(19, 127, 250, 0.774)';
+        break;
+        case 90:document.getElementById('numc').innerHTML = berilio.numero;
+        document.getElementById('simbolo').innerHTML = berilio.simbolo;
+        document.getElementById('nomec').innerHTML = berilio.nome;
+        document.getElementById('numa').innerHTML = berilio.massa;
+
+        document.getElementById('nome').innerHTML = "<b>Nome: </b>" + berilio.nome;
+        document.getElementById('simbol').innerHTML = "<b>Símbolo: </b>" + berilio.simbolo;
+        document.getElementById('numero').innerHTML = "<b>Número: </b>" + berilio.numero;
+        document.getElementById('massa').innerHTML = "<b>Massa: </b>" + berilio.massa;
+        document.getElementById('cardItem').style.backgroundColor = 'rgba(19, 127, 250, 0.774)';
+        break;
+        case 91:document.getElementById('numc').innerHTML = berilio.numero;
+        document.getElementById('simbolo').innerHTML = berilio.simbolo;
+        document.getElementById('nomec').innerHTML = berilio.nome;
+        document.getElementById('numa').innerHTML = berilio.massa;
+
+        document.getElementById('nome').innerHTML = "<b>Nome: </b>" + berilio.nome;
+        document.getElementById('simbol').innerHTML = "<b>Símbolo: </b>" + berilio.simbolo;
+        document.getElementById('numero').innerHTML = "<b>Número: </b>" + berilio.numero;
+        document.getElementById('massa').innerHTML = "<b>Massa: </b>" + berilio.massa;
+        document.getElementById('cardItem').style.backgroundColor = 'rgba(19, 127, 250, 0.774)';
+        break;
+        case 92:document.getElementById('numc').innerHTML = berilio.numero;
+        document.getElementById('simbolo').innerHTML = berilio.simbolo;
+        document.getElementById('nomec').innerHTML = berilio.nome;
+        document.getElementById('numa').innerHTML = berilio.massa;
+
+        document.getElementById('nome').innerHTML = "<b>Nome: </b>" + berilio.nome;
+        document.getElementById('simbol').innerHTML = "<b>Símbolo: </b>" + berilio.simbolo;
+        document.getElementById('numero').innerHTML = "<b>Número: </b>" + berilio.numero;
+        document.getElementById('massa').innerHTML = "<b>Massa: </b>" + berilio.massa;
+        document.getElementById('cardItem').style.backgroundColor = 'rgba(19, 127, 250, 0.774)';
+        break;
+        case 93:document.getElementById('numc').innerHTML = berilio.numero;
+        document.getElementById('simbolo').innerHTML = berilio.simbolo;
+        document.getElementById('nomec').innerHTML = berilio.nome;
+        document.getElementById('numa').innerHTML = berilio.massa;
+
+        document.getElementById('nome').innerHTML = "<b>Nome: </b>" + berilio.nome;
+        document.getElementById('simbol').innerHTML = "<b>Símbolo: </b>" + berilio.simbolo;
+        document.getElementById('numero').innerHTML = "<b>Número: </b>" + berilio.numero;
+        document.getElementById('massa').innerHTML = "<b>Massa: </b>" + berilio.massa;
+        document.getElementById('cardItem').style.backgroundColor = 'rgba(19, 127, 250, 0.774)';
+        break;
+        case 94:document.getElementById('numc').innerHTML = berilio.numero;
+        document.getElementById('simbolo').innerHTML = berilio.simbolo;
+        document.getElementById('nomec').innerHTML = berilio.nome;
+        document.getElementById('numa').innerHTML = berilio.massa;
+
+        document.getElementById('nome').innerHTML = "<b>Nome: </b>" + berilio.nome;
+        document.getElementById('simbol').innerHTML = "<b>Símbolo: </b>" + berilio.simbolo;
+        document.getElementById('numero').innerHTML = "<b>Número: </b>" + berilio.numero;
+        document.getElementById('massa').innerHTML = "<b>Massa: </b>" + berilio.massa;
+        document.getElementById('cardItem').style.backgroundColor = 'rgba(19, 127, 250, 0.774)';
+        break;
+        case 95:document.getElementById('numc').innerHTML = berilio.numero;
+        document.getElementById('simbolo').innerHTML = berilio.simbolo;
+        document.getElementById('nomec').innerHTML = berilio.nome;
+        document.getElementById('numa').innerHTML = berilio.massa;
+
+        document.getElementById('nome').innerHTML = "<b>Nome: </b>" + berilio.nome;
+        document.getElementById('simbol').innerHTML = "<b>Símbolo: </b>" + berilio.simbolo;
+        document.getElementById('numero').innerHTML = "<b>Número: </b>" + berilio.numero;
+        document.getElementById('massa').innerHTML = "<b>Massa: </b>" + berilio.massa;
+        document.getElementById('cardItem').style.backgroundColor = 'rgba(19, 127, 250, 0.774)';
+        break;
+        case 96:document.getElementById('numc').innerHTML = berilio.numero;
+        document.getElementById('simbolo').innerHTML = berilio.simbolo;
+        document.getElementById('nomec').innerHTML = berilio.nome;
+        document.getElementById('numa').innerHTML = berilio.massa;
+
+        document.getElementById('nome').innerHTML = "<b>Nome: </b>" + berilio.nome;
+        document.getElementById('simbol').innerHTML = "<b>Símbolo: </b>" + berilio.simbolo;
+        document.getElementById('numero').innerHTML = "<b>Número: </b>" + berilio.numero;
+        document.getElementById('massa').innerHTML = "<b>Massa: </b>" + berilio.massa;
+        document.getElementById('cardItem').style.backgroundColor = 'rgba(19, 127, 250, 0.774)';
+        break;
+        case 97:document.getElementById('numc').innerHTML = berilio.numero;
+        document.getElementById('simbolo').innerHTML = berilio.simbolo;
+        document.getElementById('nomec').innerHTML = berilio.nome;
+        document.getElementById('numa').innerHTML = berilio.massa;
+
+        document.getElementById('nome').innerHTML = "<b>Nome: </b>" + berilio.nome;
+        document.getElementById('simbol').innerHTML = "<b>Símbolo: </b>" + berilio.simbolo;
+        document.getElementById('numero').innerHTML = "<b>Número: </b>" + berilio.numero;
+        document.getElementById('massa').innerHTML = "<b>Massa: </b>" + berilio.massa;
+        document.getElementById('cardItem').style.backgroundColor = 'rgba(19, 127, 250, 0.774)';
+        break;
+        case 98:document.getElementById('numc').innerHTML = berilio.numero;
+        document.getElementById('simbolo').innerHTML = berilio.simbolo;
+        document.getElementById('nomec').innerHTML = berilio.nome;
+        document.getElementById('numa').innerHTML = berilio.massa;
+
+        document.getElementById('nome').innerHTML = "<b>Nome: </b>" + berilio.nome;
+        document.getElementById('simbol').innerHTML = "<b>Símbolo: </b>" + berilio.simbolo;
+        document.getElementById('numero').innerHTML = "<b>Número: </b>" + berilio.numero;
+        document.getElementById('massa').innerHTML = "<b>Massa: </b>" + berilio.massa;
+        document.getElementById('cardItem').style.backgroundColor = 'rgba(19, 127, 250, 0.774)';
+        break;
+        case 99:document.getElementById('numc').innerHTML = berilio.numero;
+        document.getElementById('simbolo').innerHTML = berilio.simbolo;
+        document.getElementById('nomec').innerHTML = berilio.nome;
+        document.getElementById('numa').innerHTML = berilio.massa;
+
+        document.getElementById('nome').innerHTML = "<b>Nome: </b>" + berilio.nome;
+        document.getElementById('simbol').innerHTML = "<b>Símbolo: </b>" + berilio.simbolo;
+        document.getElementById('numero').innerHTML = "<b>Número: </b>" + berilio.numero;
+        document.getElementById('massa').innerHTML = "<b>Massa: </b>" + berilio.massa;
+        document.getElementById('cardItem').style.backgroundColor = 'rgba(19, 127, 250, 0.774)';
+        break;
+        case 100:document.getElementById('numc').innerHTML = berilio.numero;
+        document.getElementById('simbolo').innerHTML = berilio.simbolo;
+        document.getElementById('nomec').innerHTML = berilio.nome;
+        document.getElementById('numa').innerHTML = berilio.massa;
+
+        document.getElementById('nome').innerHTML = "<b>Nome: </b>" + berilio.nome;
+        document.getElementById('simbol').innerHTML = "<b>Símbolo: </b>" + berilio.simbolo;
+        document.getElementById('numero').innerHTML = "<b>Número: </b>" + berilio.numero;
+        document.getElementById('massa').innerHTML = "<b>Massa: </b>" + berilio.massa;
+        document.getElementById('cardItem').style.backgroundColor = 'rgba(19, 127, 250, 0.774)';
+        break;
+        case 101:document.getElementById('numc').innerHTML = berilio.numero;
+        document.getElementById('simbolo').innerHTML = berilio.simbolo;
+        document.getElementById('nomec').innerHTML = berilio.nome;
+        document.getElementById('numa').innerHTML = berilio.massa;
+
+        document.getElementById('nome').innerHTML = "<b>Nome: </b>" + berilio.nome;
+        document.getElementById('simbol').innerHTML = "<b>Símbolo: </b>" + berilio.simbolo;
+        document.getElementById('numero').innerHTML = "<b>Número: </b>" + berilio.numero;
+        document.getElementById('massa').innerHTML = "<b>Massa: </b>" + berilio.massa;
+        document.getElementById('cardItem').style.backgroundColor = 'rgba(19, 127, 250, 0.774)';
+        break;
+        case 102:document.getElementById('numc').innerHTML = berilio.numero;
+        document.getElementById('simbolo').innerHTML = berilio.simbolo;
+        document.getElementById('nomec').innerHTML = berilio.nome;
+        document.getElementById('numa').innerHTML = berilio.massa;
+
+        document.getElementById('nome').innerHTML = "<b>Nome: </b>" + berilio.nome;
+        document.getElementById('simbol').innerHTML = "<b>Símbolo: </b>" + berilio.simbolo;
+        document.getElementById('numero').innerHTML = "<b>Número: </b>" + berilio.numero;
+        document.getElementById('massa').innerHTML = "<b>Massa: </b>" + berilio.massa;
+        document.getElementById('cardItem').style.backgroundColor = 'rgba(19, 127, 250, 0.774)';
+        break;
+        case 103:document.getElementById('numc').innerHTML = berilio.numero;
+        document.getElementById('simbolo').innerHTML = berilio.simbolo;
+        document.getElementById('nomec').innerHTML = berilio.nome;
+        document.getElementById('numa').innerHTML = berilio.massa;
+
+        document.getElementById('nome').innerHTML = "<b>Nome: </b>" + berilio.nome;
+        document.getElementById('simbol').innerHTML = "<b>Símbolo: </b>" + berilio.simbolo;
+        document.getElementById('numero').innerHTML = "<b>Número: </b>" + berilio.numero;
+        document.getElementById('massa').innerHTML = "<b>Massa: </b>" + berilio.massa;
+        document.getElementById('cardItem').style.backgroundColor = 'rgba(19, 127, 250, 0.774)';
+        break;
+        case 104:document.getElementById('numc').innerHTML = berilio.numero;
+        document.getElementById('simbolo').innerHTML = berilio.simbolo;
+        document.getElementById('nomec').innerHTML = berilio.nome;
+        document.getElementById('numa').innerHTML = berilio.massa;
+
+        document.getElementById('nome').innerHTML = "<b>Nome: </b>" + berilio.nome;
+        document.getElementById('simbol').innerHTML = "<b>Símbolo: </b>" + berilio.simbolo;
+        document.getElementById('numero').innerHTML = "<b>Número: </b>" + berilio.numero;
+        document.getElementById('massa').innerHTML = "<b>Massa: </b>" + berilio.massa;
+        document.getElementById('cardItem').style.backgroundColor = 'rgba(19, 127, 250, 0.774)';
+        break;
+        case 105:document.getElementById('numc').innerHTML = berilio.numero;
+        document.getElementById('simbolo').innerHTML = berilio.simbolo;
+        document.getElementById('nomec').innerHTML = berilio.nome;
+        document.getElementById('numa').innerHTML = berilio.massa;
+
+        document.getElementById('nome').innerHTML = "<b>Nome: </b>" + berilio.nome;
+        document.getElementById('simbol').innerHTML = "<b>Símbolo: </b>" + berilio.simbolo;
+        document.getElementById('numero').innerHTML = "<b>Número: </b>" + berilio.numero;
+        document.getElementById('massa').innerHTML = "<b>Massa: </b>" + berilio.massa;
+        document.getElementById('cardItem').style.backgroundColor = 'rgba(19, 127, 250, 0.774)';
+        break;
+        case 106:document.getElementById('numc').innerHTML = berilio.numero;
+        document.getElementById('simbolo').innerHTML = berilio.simbolo;
+        document.getElementById('nomec').innerHTML = berilio.nome;
+        document.getElementById('numa').innerHTML = berilio.massa;
+
+        document.getElementById('nome').innerHTML = "<b>Nome: </b>" + berilio.nome;
+        document.getElementById('simbol').innerHTML = "<b>Símbolo: </b>" + berilio.simbolo;
+        document.getElementById('numero').innerHTML = "<b>Número: </b>" + berilio.numero;
+        document.getElementById('massa').innerHTML = "<b>Massa: </b>" + berilio.massa;
+        document.getElementById('cardItem').style.backgroundColor = 'rgba(19, 127, 250, 0.774)';
+        break;
+        case 107:document.getElementById('numc').innerHTML = berilio.numero;
+        document.getElementById('simbolo').innerHTML = berilio.simbolo;
+        document.getElementById('nomec').innerHTML = berilio.nome;
+        document.getElementById('numa').innerHTML = berilio.massa;
+
+        document.getElementById('nome').innerHTML = "<b>Nome: </b>" + berilio.nome;
+        document.getElementById('simbol').innerHTML = "<b>Símbolo: </b>" + berilio.simbolo;
+        document.getElementById('numero').innerHTML = "<b>Número: </b>" + berilio.numero;
+        document.getElementById('massa').innerHTML = "<b>Massa: </b>" + berilio.massa;
+        document.getElementById('cardItem').style.backgroundColor = 'rgba(19, 127, 250, 0.774)';
+        break;
+        case 108:document.getElementById('numc').innerHTML = berilio.numero;
+        document.getElementById('simbolo').innerHTML = berilio.simbolo;
+        document.getElementById('nomec').innerHTML = berilio.nome;
+        document.getElementById('numa').innerHTML = berilio.massa;
+
+        document.getElementById('nome').innerHTML = "<b>Nome: </b>" + berilio.nome;
+        document.getElementById('simbol').innerHTML = "<b>Símbolo: </b>" + berilio.simbolo;
+        document.getElementById('numero').innerHTML = "<b>Número: </b>" + berilio.numero;
+        document.getElementById('massa').innerHTML = "<b>Massa: </b>" + berilio.massa;
+        document.getElementById('cardItem').style.backgroundColor = 'rgba(19, 127, 250, 0.774)';
+        break;
+        case 109:document.getElementById('numc').innerHTML = berilio.numero;
+        document.getElementById('simbolo').innerHTML = berilio.simbolo;
+        document.getElementById('nomec').innerHTML = berilio.nome;
+        document.getElementById('numa').innerHTML = berilio.massa;
+
+        document.getElementById('nome').innerHTML = "<b>Nome: </b>" + berilio.nome;
+        document.getElementById('simbol').innerHTML = "<b>Símbolo: </b>" + berilio.simbolo;
+        document.getElementById('numero').innerHTML = "<b>Número: </b>" + berilio.numero;
+        document.getElementById('massa').innerHTML = "<b>Massa: </b>" + berilio.massa;
+        document.getElementById('cardItem').style.backgroundColor = 'rgba(19, 127, 250, 0.774)';
+        break;
+        case 110:document.getElementById('numc').innerHTML = berilio.numero;
+        document.getElementById('simbolo').innerHTML = berilio.simbolo;
+        document.getElementById('nomec').innerHTML = berilio.nome;
+        document.getElementById('numa').innerHTML = berilio.massa;
+
+        document.getElementById('nome').innerHTML = "<b>Nome: </b>" + berilio.nome;
+        document.getElementById('simbol').innerHTML = "<b>Símbolo: </b>" + berilio.simbolo;
+        document.getElementById('numero').innerHTML = "<b>Número: </b>" + berilio.numero;
+        document.getElementById('massa').innerHTML = "<b>Massa: </b>" + berilio.massa;
+        document.getElementById('cardItem').style.backgroundColor = 'rgba(19, 127, 250, 0.774)';
+        break;
+        case 111:document.getElementById('numc').innerHTML = berilio.numero;
+        document.getElementById('simbolo').innerHTML = berilio.simbolo;
+        document.getElementById('nomec').innerHTML = berilio.nome;
+        document.getElementById('numa').innerHTML = berilio.massa;
+
+        document.getElementById('nome').innerHTML = "<b>Nome: </b>" + berilio.nome;
+        document.getElementById('simbol').innerHTML = "<b>Símbolo: </b>" + berilio.simbolo;
+        document.getElementById('numero').innerHTML = "<b>Número: </b>" + berilio.numero;
+        document.getElementById('massa').innerHTML = "<b>Massa: </b>" + berilio.massa;
+        document.getElementById('cardItem').style.backgroundColor = 'rgba(19, 127, 250, 0.774)';
+        break;
+        case 112:document.getElementById('numc').innerHTML = berilio.numero;
+        document.getElementById('simbolo').innerHTML = berilio.simbolo;
+        document.getElementById('nomec').innerHTML = berilio.nome;
+        document.getElementById('numa').innerHTML = berilio.massa;
+
+        document.getElementById('nome').innerHTML = "<b>Nome: </b>" + berilio.nome;
+        document.getElementById('simbol').innerHTML = "<b>Símbolo: </b>" + berilio.simbolo;
+        document.getElementById('numero').innerHTML = "<b>Número: </b>" + berilio.numero;
+        document.getElementById('massa').innerHTML = "<b>Massa: </b>" + berilio.massa;
+        document.getElementById('cardItem').style.backgroundColor = 'rgba(19, 127, 250, 0.774)';
+        break;
+        case 113:document.getElementById('numc').innerHTML = berilio.numero;
+        document.getElementById('simbolo').innerHTML = berilio.simbolo;
+        document.getElementById('nomec').innerHTML = berilio.nome;
+        document.getElementById('numa').innerHTML = berilio.massa;
+
+        document.getElementById('nome').innerHTML = "<b>Nome: </b>" + berilio.nome;
+        document.getElementById('simbol').innerHTML = "<b>Símbolo: </b>" + berilio.simbolo;
+        document.getElementById('numero').innerHTML = "<b>Número: </b>" + berilio.numero;
+        document.getElementById('massa').innerHTML = "<b>Massa: </b>" + berilio.massa;
+        document.getElementById('cardItem').style.backgroundColor = 'rgba(19, 127, 250, 0.774)';
+        break;
+        case 114:document.getElementById('numc').innerHTML = berilio.numero;
+        document.getElementById('simbolo').innerHTML = berilio.simbolo;
+        document.getElementById('nomec').innerHTML = berilio.nome;
+        document.getElementById('numa').innerHTML = berilio.massa;
+
+        document.getElementById('nome').innerHTML = "<b>Nome: </b>" + berilio.nome;
+        document.getElementById('simbol').innerHTML = "<b>Símbolo: </b>" + berilio.simbolo;
+        document.getElementById('numero').innerHTML = "<b>Número: </b>" + berilio.numero;
+        document.getElementById('massa').innerHTML = "<b>Massa: </b>" + berilio.massa;
+        document.getElementById('cardItem').style.backgroundColor = 'rgba(19, 127, 250, 0.774)';
+        break;
+        case 115:document.getElementById('numc').innerHTML = berilio.numero;
+        document.getElementById('simbolo').innerHTML = berilio.simbolo;
+        document.getElementById('nomec').innerHTML = berilio.nome;
+        document.getElementById('numa').innerHTML = berilio.massa;
+
+        document.getElementById('nome').innerHTML = "<b>Nome: </b>" + berilio.nome;
+        document.getElementById('simbol').innerHTML = "<b>Símbolo: </b>" + berilio.simbolo;
+        document.getElementById('numero').innerHTML = "<b>Número: </b>" + berilio.numero;
+        document.getElementById('massa').innerHTML = "<b>Massa: </b>" + berilio.massa;
+        document.getElementById('cardItem').style.backgroundColor = 'rgba(19, 127, 250, 0.774)';
+        break;
+        case 116:document.getElementById('numc').innerHTML = berilio.numero;
+        document.getElementById('simbolo').innerHTML = berilio.simbolo;
+        document.getElementById('nomec').innerHTML = berilio.nome;
+        document.getElementById('numa').innerHTML = berilio.massa;
+
+        document.getElementById('nome').innerHTML = "<b>Nome: </b>" + berilio.nome;
+        document.getElementById('simbol').innerHTML = "<b>Símbolo: </b>" + berilio.simbolo;
+        document.getElementById('numero').innerHTML = "<b>Número: </b>" + berilio.numero;
+        document.getElementById('massa').innerHTML = "<b>Massa: </b>" + berilio.massa;
+        document.getElementById('cardItem').style.backgroundColor = 'rgba(19, 127, 250, 0.774)';
+        break;
+        case 117:document.getElementById('numc').innerHTML = berilio.numero;
+        document.getElementById('simbolo').innerHTML = berilio.simbolo;
+        document.getElementById('nomec').innerHTML = berilio.nome;
+        document.getElementById('numa').innerHTML = berilio.massa;
+
+        document.getElementById('nome').innerHTML = "<b>Nome: </b>" + berilio.nome;
+        document.getElementById('simbol').innerHTML = "<b>Símbolo: </b>" + berilio.simbolo;
+        document.getElementById('numero').innerHTML = "<b>Número: </b>" + berilio.numero;
+        document.getElementById('massa').innerHTML = "<b>Massa: </b>" + berilio.massa;
+        document.getElementById('cardItem').style.backgroundColor = 'rgba(19, 127, 250, 0.774)';
+        break;
+        case 118:document.getElementById('numc').innerHTML = berilio.numero;
+        document.getElementById('simbolo').innerHTML = berilio.simbolo;
+        document.getElementById('nomec').innerHTML = berilio.nome;
+        document.getElementById('numa').innerHTML = berilio.massa;
+
+        document.getElementById('nome').innerHTML = "<b>Nome: </b>" + berilio.nome;
+        document.getElementById('simbol').innerHTML = "<b>Símbolo: </b>" + berilio.simbolo;
+        document.getElementById('numero').innerHTML = "<b>Número: </b>" + berilio.numero;
+        document.getElementById('massa').innerHTML = "<b>Massa: </b>" + berilio.massa;
+        document.getElementById('cardItem').style.backgroundColor = 'rgba(19, 127, 250, 0.774)';
+        break;
     }
 }
